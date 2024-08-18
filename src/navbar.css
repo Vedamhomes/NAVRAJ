@@ -7,26 +7,22 @@
     background-color: #000000;
     padding: 0 100px;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow-x: hidden;    
+}
 
-    .image_container {
-      display: flex;
-      align-items: center;
-      margin-left: 120px;
-
-      .image_logo {
-        height: auto;
-        width: 180px;
-        max-width: 100%;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-      }
-
-    }
-
-  }
-  
+.image_container {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;  
+}
+.image_logo {
+  height: auto;
+  width: 180px;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
   
   .navbar_item {
     display: flex;
@@ -65,60 +61,66 @@
   
   
   /* Responsive Design */
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     .navbar_container {
-      padding: 0 50px; /* Reduce padding on tablets */
+      padding: 0;
     }
-  
-    .image_logo {
-      height: 60px;
-      width: 60px;
+
+    .image_container{
+        margin-left: 100px;
     }
-  
-    .navbar_list li {
-      font-size: 10px;
+
+    .navbar_item {
+        margin-top: 10px;
+        margin-right: 80px;
     }
+
+    .navbar_list {
+        /* gap: 15px; */
+      }
+
   }
   
   @media (max-width: 768px) {
     .navbar_container {
-      flex-direction: column;
       align-items: center;
-      padding: 10px 20px;
+      padding: 10px 0;
       height: auto;
+    }
+
+    .image_container{
+        margin-left: 50px;
     }
   
     .navbar_item {
       margin-top: 10px;
+      margin-right: 50px;
     }
-  
+
     .navbar_list {
-      flex-direction: column;
-      gap: 20px;
+        gap: 7px;
+      }
+  
+  }
+  
+  @media (max-width: 500px) {
+    .navbar_container {
+      padding: 10px;
+    }
+
+    .image_container{
+        margin-left: 20px;
     }
   
-    .image_logo {
-      height: 50px;
-      width: 50px;
+    .navbar_item{
+        margin-right: 12px;
+    }
+    .navbar_list {
+      gap: 12px;
     }
   
     .navbar_list li {
       font-size: 12px;
-      padding: 10px 0;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .navbar_container {
-      padding: 10px;
-    }
-  
-    .navbar_list {
-      gap: 15px;
-    }
-  
-    .navbar_list li {
-      font-size: 10px;
     }
   }
   

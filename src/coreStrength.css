@@ -59,6 +59,24 @@
     word-spacing: 0.2rem;
 }
 
+@media (max-width: 1200px) {
+    .core_strength_container{
+        margin: 36px 150px;
+    }
+}
+@media (max-width: 768px) {
+    .core_strength_container{
+        margin: 44px 90;
+    }
+}
+@media (max-width: 500px) {
+    .core_strength_container{
+        margin: 50px 20px;
+    }
+    .core_strength_content_box{
+        height: 225px;
+    }
+}
 
 
 /* Form */
@@ -94,10 +112,6 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-}
-
-.inquire_container_form{
-
 }
 
 .inquire_container_form_heading{
@@ -199,6 +213,25 @@
     margin-top: 16px;
     margin-left: -10px;
 
+}
+
+@media (max-width: 1200px) {
+    .inquire_container{
+        margin: 30px 150px;
+    }
+}
+@media (max-width: 768px) {
+    .inquire_container{
+        margin: 30px 90px;
+    }
+}
+@media (max-width: 500px) {
+    .inquire_container{
+        margin: 8px 20px;
+    }
+    .core_strength_content_box{
+        height: 225px;
+    }
 }
 
 /* infor box */
