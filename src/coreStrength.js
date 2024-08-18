@@ -23,8 +23,8 @@ const CoreStrength = () => {
             <div className="core_strength_content_box_icon">
               <img
                 className="core_strength_content_box_img"
-                src='https://img.freepik.com/free-vector/isolated-barn-house-cartoon-style_1308-161010.jpg'
-                alt="Barn Icon"
+                src="barn.jpg"
+                alt="Timeless Designs"
               />
             </div>
             <div className="core_strength_content_box_item">
@@ -37,8 +37,8 @@ const CoreStrength = () => {
             <div className="core_strength_content_box_icon">
               <img
                 className="core_strength_content_box_img"
-                src='https://img.freepik.com/free-vector/isolated-barn-house-cartoon-style_1308-161010.jpg'
-                alt="Barn Icon"
+                src='building.png'
+                alt="Strategic Locations"
               />
             </div>
             <div className="core_strength_content_box_item">
@@ -51,8 +51,8 @@ const CoreStrength = () => {
             <div className="core_strength_content_box_icon">
               <img
                 className="core_strength_content_box_img"
-                src='https://img.freepik.com/free-vector/isolated-barn-house-cartoon-style_1308-161010.jpg'
-                alt="Barn Icon"
+                src="/quality.jpg"
+                alt="Bespoke Quality"
               />
             </div>
             <div className="core_strength_content_box_item">
@@ -65,8 +65,8 @@ const CoreStrength = () => {
             <div className="core_strength_content_box_icon">
               <img
                 className="core_strength_content_box_img"
-                src='https://img.freepik.com/free-vector/isolated-barn-house-cartoon-style_1308-161010.jpg'
-                alt="Barn Icon"
+                src="values.png"
+                alt="Values & Integrity"
               />
             </div>
             <div className="core_strength_content_box_item">
@@ -79,8 +79,8 @@ const CoreStrength = () => {
             <div className="core_strength_content_box_icon">
               <img
                 className="core_strength_content_box_img"
-                src='https://img.freepik.com/free-vector/isolated-barn-house-cartoon-style_1308-161010.jpg'
-                alt="Barn Icon"
+                src="networking.png"
+                alt="Network"
               />
             </div>
             <div className="core_strength_content_box_item">
@@ -93,8 +93,8 @@ const CoreStrength = () => {
             <div className="core_strength_content_box_icon">
               <img
                 className="core_strength_content_box_img"
-                src='https://img.freepik.com/free-vector/isolated-barn-house-cartoon-style_1308-161010.jpg'
-                alt="Barn Icon"
+                src="transparency.png"
+                alt="Transparency"
               />
             </div>
             <div className="core_strength_content_box_item">
@@ -107,8 +107,8 @@ const CoreStrength = () => {
             <div className="core_strength_content_box_icon">
               <img
                 className="core_strength_content_box_img"
-                src='https://img.freepik.com/free-vector/isolated-barn-house-cartoon-style_1308-161010.jpg'
-                alt="Barn Icon"
+                src="financial.png"
+                alt="Financial Stability"
               />
             </div>
             <div className="core_strength_content_box_item">
@@ -121,8 +121,8 @@ const CoreStrength = () => {
             <div className="core_strength_content_box_icon">
               <img
                 className="core_strength_content_box_img"
-                src='https://img.freepik.com/free-vector/isolated-barn-house-cartoon-style_1308-161010.jpg'
-                alt="Barn Icon"
+                src="idea.png"
+                alt="Innovation"
               />
             </div>
             <div className="core_strength_content_box_item">
@@ -135,8 +135,8 @@ const CoreStrength = () => {
             <div className="core_strength_content_box_icon">
               <img
                 className="core_strength_content_box_img"
-                src='https://img.freepik.com/free-vector/isolated-barn-house-cartoon-style_1308-161010.jpg'
-                alt="Barn Icon"
+                src="building.png"
+                alt="Our Land"
               />
             </div>
             <div className="core_strength_content_box_item">
