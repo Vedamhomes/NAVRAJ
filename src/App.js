@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import CoreStrength from './coreStrength';
+import Footer from './footer';
+import MainContent from './mainContent';
+import Navbar from './navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <img fetchpriority="high" decoding="async" src="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg" alt="" class="tp-rs-img rs-lazyload" width="1920" height="800" data-lazyload="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg" data-no-retina="" data-src-rs-ref="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg" />
+      <MainContent />
+
+      <CoreStrength />
+
+      <Footer />
     </div>
   );
 }

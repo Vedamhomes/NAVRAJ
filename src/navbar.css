@@ -1,0 +1,124 @@
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background-color: #000000;
+    padding: 0 100px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    .image_container {
+      display: flex;
+      align-items: center;
+      margin-left: 120px;
+
+      .image_logo {
+        height: auto;
+        width: 180px;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+      }
+
+    }
+
+  }
+  
+  
+  .navbar_item {
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+  }
+  
+  .navbar_list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar_list li {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    padding: 20px 10px;
+    box-shadow: none;
+    text-decoration: none;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navbar_list_home:hover{
+    color: #D1C292;
+    fill: #D1C292;
+  }
+  .navbar_list_contact:hover{
+    color: #D1C292;
+    fill: #D1C292;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .navbar_container {
+      padding: 0 50px; /* Reduce padding on tablets */
+    }
+  
+    .image_logo {
+      height: 60px;
+      width: 60px;
+    }
+  
+    .navbar_list li {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar_container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 20px;
+      height: auto;
+    }
+  
+    .navbar_item {
+      margin-top: 10px;
+    }
+  
+    .navbar_list {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .image_logo {
+      height: 50px;
+      width: 50px;
+    }
+  
+    .navbar_list li {
+      font-size: 12px;
+      padding: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar_container {
+      padding: 10px;
+    }
+  
+    .navbar_list {
+      gap: 15px;
+    }
+  
+    .navbar_list li {
+      font-size: 10px;
+    }
+  }
+  

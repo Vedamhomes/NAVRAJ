@@ -1,0 +1,312 @@
+main_container{
+    /* height: 100%;
+    width: 100%; */
+}
+
+.image_container{
+
+}
+
+.main_image{
+
+}
+
+/* .first_section{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 200px;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: auto;
+}
+
+.first_section_left{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+.first_section_left_img{
+    vertical-align: middle;
+    display: flex;
+    height: 350;
+    max-width: 100%;
+    box-sizing: border-box;
+    width: 1200px;
+    aspect-ratio: auto 1000 / 667;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.first_section_right p{
+    align-items: center;
+    color: #616161;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.04rem;
+    word-spacing: 0.3rem;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 3px 0 0 0;
+}
+
+.about_box{
+    color: #897C4A;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.2rem;
+}
+
+.about_second_box{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* Assuming your CSS file is named firstSection.module.css */
+
+.first_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns for left and right sections */
+    gap: 50px; /* Gap between columns */
+    padding: 30px 200px;
+}
+  
+  .first_section_left {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .about_box{
+    color: #897C4A;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.2rem;
+}
+  
+  .first_section_left_img {
+    width: 100%;    
+    vertical-align: middle;
+    height: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    aspect-ratio: auto 1000 / 667;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .first_section_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    margin-top: 60px;
+    padding: 3px 0 0 0;
+  }
+  
+  .first_section_right_p {
+    color: #616161;
+    width: 95%;
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.04rem;
+    word-spacing: 0.3rem;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    padding: 3px 0 0 0;
+    margin-bottom: 8px;
+  }
+  
+  .third_section{
+    color: #616161;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.04rem;
+    word-spacing: 0.3rem;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+  }
+
+  .about_icno_box{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 20px;
+
+  }
+
+  .e_arrow_right{
+    fill: #BEA02E;
+    transition: fill 0.3s;
+    height: 12px;
+    margin-right: 20px;
+  }
+
+  /* .first_section_right span {
+    display: block;
+    margin-top: 20px;
+  } */
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .first_section {
+      grid-template-columns: 1fr; /* Single column layout on mobile */
+      gap: 20px; /* Reduced gap on mobile */
+    }
+  
+    .first_section_right_p  {
+      margin-left: 20px; /* Margin left for mobile */
+      margin-right: 20px; /* Margin right for mobile */
+    }
+  
+    .first_section_left_img {
+      max-width: 100%; /* Ensure image fits within container */
+    }
+  }
+  
+
+
+  /* Info section */
+
+  /* Assuming your CSS file is named infoSection.module.css */
+
+.info_section {
+    background-image: url('https://navrajindia.com/wp-content/uploads/2024/04/banner-about-us-1.jpg');
+    background-attachment: fixed;
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    margin-top: 50px;
+  }
+
+  .info_section_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns for left and right sections */
+    gap: 50px; /* Gap between columns */
+    margin-top: 50px; /* Margin top for the section */
+    padding: 20px; /* Padding around the section */
+    background-color: #001C36;
+    opacity: 0.7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .info_left_section {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+    margin-left: 200px; /* Margin left for web */
+  }
+
+  .info_right_header{
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 3rem;
+    letter-spacing: 0.04rem;
+    word-spacing: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+  }
+
+  .info_right_content{
+      color: #FFFFFF;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+        letter-spacing: 0.04rem;
+        word-spacing: 0.2rem;
+        -webkit-text-stroke-color: #000;
+        stroke: #000;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: flex-start;
+  }
+  
+  .info_right_btn{
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 190px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.16rem;
+    background-color: #02010100;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 16px;
+  }
+  
+  .info_right_section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Gap between info_left_box elements */
+  }
+  
+  .info_left_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #ffffff;
+  }
+
+  .info_left_header{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  .info_left_content{
+    color: #FFFFFF;
+    font-weight: 400;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .info_section {
+      grid-template-columns: 1fr; /* Single column layout on mobile */
+    }
+  
+  }
+  
