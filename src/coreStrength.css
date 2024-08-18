@@ -61,12 +61,12 @@
 
 @media (max-width: 1200px) {
     .core_strength_container{
-        margin: 36px 150px;
+        margin: 36px 100px;
     }
 }
 @media (max-width: 768px) {
     .core_strength_container{
-        margin: 44px 90;
+        margin: 44px 60;
     }
 }
 @media (max-width: 500px) {
@@ -219,10 +219,24 @@
     .inquire_container{
         margin: 30px 150px;
     }
+    .form_input_box{
+        padding: 0 16px;
+    }
 }
 @media (max-width: 768px) {
     .inquire_container{
-        margin: 30px 90px;
+        margin: 20px 20px;
+    }
+    .core_strength_content_box{
+        height: 225px;
+    }
+    .input_form{
+        margin: 0;
+        display: block;
+    }
+    .form_input_box{
+        padding: 0;
+        margin: 0;
     }
 }
 @media (max-width: 500px) {
@@ -231,6 +245,14 @@
     }
     .core_strength_content_box{
         height: 225px;
+    }
+    .input_form{
+        margin: 0;
+        display: block;
+    }
+    .form_input_box{
+        padding: 0;
+        margin: 0;
     }
 }
 
