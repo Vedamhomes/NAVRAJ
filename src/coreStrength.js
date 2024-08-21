@@ -17,9 +17,14 @@ const CoreStrength = () => {
         const formObject = Object.fromEntries(formData.entries());
 
         // const { property_location, first_name, last_name, email_address, phone_number } = formObject;
-        emailjs.sendForm('service_km55uus', 'template_9rdtcjc', form.current, {
-          publicKey: 'TBo_tRqs2ZVR2GZcA',
-        })
+        emailjs.sendForm(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            form.current,
+            {
+              publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+            }
+          )
         .then(
           () => {
             console.log('SUCCESS!');
