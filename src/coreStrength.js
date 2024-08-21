@@ -1,17 +1,67 @@
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./coreStrength.css";
+import emailjs from '@emailjs/browser';
+import Notify from 'simple-notify'
+import 'simple-notify/dist/simple-notify.css'
 
 const CoreStrength = () => {
 
+    const form = useRef();
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        const form = e.target;
+        const form_one = e.target;
 
-        const formData = new FormData(form);
+        const formData = new FormData(form_one);
     
         const formObject = Object.fromEntries(formData.entries());
 
         // const { property_location, first_name, last_name, email_address, phone_number } = formObject;
+        emailjs.sendForm('service_km55uus', 'template_9rdtcjc', form.current, {
+          publicKey: 'TBo_tRqs2ZVR2GZcA',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+            new Notify({
+                status: 'success',
+                title: 'SUCCESS',
+                text: 'Succefully recieved details',
+                effect: 'fade',
+                speed: 300,
+                customClass: null,
+                customIcon: null,
+                showIcon: true,
+                showCloseButton: true,
+                autoclose: true,
+                autotimeout: 3000,
+                gap: 20,
+                distance: 20,
+                type: 'outline',
+                position: 'right top'
+              })
+          },
+          (error) => {
+            console.log('FAILED...');
+            new Notify({
+                status: 'error',
+                title: 'ERROR',
+                text: 'Error while recieving details',
+                effect: 'fade',
+                speed: 300,
+                customClass: null,
+                customIcon: null,
+                showIcon: true,
+                showCloseButton: true,
+                autoclose: true,
+                autotimeout: 3000,
+                gap: 20,
+                distance: 20,
+                type: 'outline',
+                position: 'right top'
+              })
+          },
+        );
         console.log('formObject', formObject)
     }
   return (
@@ -158,7 +208,7 @@ const CoreStrength = () => {
                 <p className="inquire_container_form_heading_text">* All fields are mandatory</p>
             </div>
 
-            <form className="input_form" onSubmit={handleSubmit}>
+            <form ref={form} className="input_form" onSubmit={handleSubmit}>
                 <div className="form_input_container">
                     <select name="property_location" id="form-field-b66c734" className="form_input_box" required="required" title="* Property Location">
                         <option value="">Select Property Location</option>
@@ -168,19 +218,19 @@ const CoreStrength = () => {
                 </div>
 
                 <div className="form_input_container">
-                    <input className="form_input_box" id="first_name" name="first_name" placeholder="First name" />
+                    <input required className="form_input_box" id="first_name" name="first_name" placeholder="First name" />
                 </div>
 
                 <div className="form_input_container">
-                    <input className="form_input_box" id="last_name" name="last_name" placeholder="Last Name" />
+                    <input required className="form_input_box" id="last_name" name="last_name" placeholder="Last Name" />
                 </div>
 
                 <div className="form_input_container">
-                    <input className="form_input_box form_input_box_email" id="email_address" name="email_address" placeholder="Email address" />
+                    <input required className="form_input_box form_input_box_email" id="email_address" name="email_address" placeholder="Email address" />
                 </div>
 
                 <div className="form_input_container">
-                    <input className="form_input_box" id="phone_number" name="phone_number" placeholder="Phone number" />
+                    <input required className="form_input_box" id="phone_number" name="phone_number" placeholder="Phone number" />
                 </div>
 
                 <div className="form_submit_container">

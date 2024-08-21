@@ -195,6 +195,7 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
 .submit_btn{
     align-items: flex-end;
     background-color: #000000;
@@ -213,6 +214,12 @@
     margin-top: 16px;
     margin-left: -10px;
 
+}
+
+.submit_btn:hover{
+    background-color: #D5C9A4;
+    color: #FFFFFF;
+    border-style: none;
 }
 
 @media (max-width: 1200px) {
@@ -263,12 +270,13 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 90px;
 }
 
 .info_box_text{
     color: #897C4A;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.5rem;
     letter-spacing: 0.05rem;
     word-spacing: 0.2rem;
