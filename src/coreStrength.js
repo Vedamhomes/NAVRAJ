@@ -253,7 +253,7 @@ const CoreStrength = () => {
 
         <div className="info_box_number">
             <div className="info_box_number_text">
-                Call 1234567890
+                Call 9871534959
             </div>
         </div>
     </div>
