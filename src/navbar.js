@@ -15,7 +15,12 @@ const Navbar = () => {
       <nav className="navbar_item">
         <ul className="navbar_list">
           <li className="navbar_list_home">Home</li>
-          <li className="navbar_list_contact">Contact</li>
+          <li className="navbar_list_contact">Gallery</li>
+          <li className="glitch-wrapper">
+            <button data-glitch="glitch" className="glitch navbar_list_enquire_btn" onClick={console.log('hi')}>
+              Enquire now
+            </button>
+          </li>
         </ul>
       </nav>
     </div>
