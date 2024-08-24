@@ -1,7 +1,8 @@
 import React from "react";
 import style from "./navbar.css";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const {setIsInputModalOpen} = props;
   return (
     <div className="navbar_container">
       <div className="image_container">
@@ -17,7 +18,7 @@ const Navbar = () => {
           <li className="navbar_list_home">Home</li>
           <li className="navbar_list_contact">Gallery</li>
           <li className="glitch_wrapper">
-            <button data-glitch="glitch" className="glitch navbar_list_enquire_btn" onClick={console.log('hi')}>
+            <button data-glitch="glitch" className="glitch navbar_list_enquire_btn" onClick={() => setIsInputModalOpen(true)}>
               Enquire now
             </button>
           </li>

@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./main.css";
+import 'animate.css';
 
 const MainContent = () => {
   return (
@@ -20,7 +21,7 @@ const MainContent = () => {
           ></img>
         </div>
 
-        <div className="first_section_right">
+        <div className="first_section_right animate__animated animate__backInRight">
           <p className="first_section_right_p">
             Weaving a story of unparalleled appetite that gave rise to
             exceptional thinkers and builders who have since 15 years dedicated
@@ -49,7 +50,7 @@ const MainContent = () => {
                 <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path>
               </svg>
             </span>
-            <span>ABOUT NAVRAJ</span>Ṅ
+            <span>ABOUT NAVRAJ</span>
           </div>
         </div>
       </section>
@@ -59,12 +60,12 @@ const MainContent = () => {
       <section className="info_section">
         <div className="info_section_box">
           <div className="info_left_section">
-            <h2 className="info_right_header">
+            <h2 className="info_right_header animate__animated animate__backInDown">
               Navraj Group has acquired a sellable land parcel area of 5.3
               million sq. ft
             </h2>
 
-            <p className="info_right_content">
+            <p className="info_right_content animate__animated animate__backInUp">
               Around 4 million is envisioned for premium luxury residential
               projects and rest of the area is planned for smart mix use
               commercial and retail projects in the most strategic and lucrative
@@ -73,8 +74,8 @@ const MainContent = () => {
 
             <button className="info_right_btn">OUR projects</button>
           </div>
-          <div className="info_right_section">
-            <div className="info_left_box">
+          <div className="info_right_section animate__animated">
+            <div className="info_left_box animate__animated animate__fadeInTopRight">
               <span className="info_left_header">91% Growth</span>
 
               <p className="info_left_content">
@@ -82,7 +83,7 @@ const MainContent = () => {
                 significantly promising as we continue to grow our brand equity.
               </p>
             </div>
-            <div className="info_left_box">
+            <div className="info_left_box animate__animated  animate__fadeInRight">
               <span className="info_left_header">Record Construction</span>
 
               <p className="info_left_content">
@@ -90,7 +91,7 @@ const MainContent = () => {
                 commitment to innovation and timely delivery.{" "}
               </p>
             </div>
-            <div className="info_left_box">
+            <div className="info_left_box animate__animated animate__fadeInBottomRight">
               <span className="info_left_header">Trusted by the Elite</span>
 
               <p className="info_left_content">

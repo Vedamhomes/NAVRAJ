@@ -38,9 +38,6 @@ const Footer = () => {
               <li className="footer_other_about_list_item">
                 <a href="#">Contact</a>
               </li>
-              <li className="footer_other_about_list_item">
-                <a href="#">Career</a>
-              </li>
             </ul>
           </div>
 

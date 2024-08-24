@@ -163,7 +163,7 @@
   flex-direction: column;
   box-sizing: border-box;
   align-items: flex-start;
-  margin-left: 200px; /* Margin left for web */
+  margin-left: 140px; /* Margin left for web */
 }
 
 .info_right_header {
