@@ -35,9 +35,6 @@ const Footer = () => {
               <li className="footer_other_about_list_item">
                 <a href="#">Projects</a>
               </li>
-              <li className="footer_other_about_list_item">
-                <a href="#">Contact</a>
-              </li>
             </ul>
           </div>
 
@@ -47,13 +44,10 @@ const Footer = () => {
               <li className="footer_other_about_list_item">
                 <a href="#">News and Events</a>
               </li>
-              <li className="footer_other_about_list_item">
-                <a href="#">Sitemap</a>
-              </li>
             </ul>
           </div>
 
-          <div className="footer_other_about">
+          {/* <div className="footer_other_about">
             <h3 className="footer_other_header">Download</h3>
             <ul className="footer_other_about_list">
               <li className="footer_other_about_list_item">
@@ -66,7 +60,7 @@ const Footer = () => {
                 <a href="#">Navraj Media Kit</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 

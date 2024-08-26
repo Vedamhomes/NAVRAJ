@@ -11,7 +11,7 @@
   /* Grid Layout */
   .footer_content_section {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
     gap: 20px;
     margin-top: 50px;
   }
@@ -47,8 +47,8 @@
   /* Grid for Other Sections */
   .footer_other {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 16rem;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20rem;
   }
   
   .footer_other_about {
