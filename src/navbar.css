@@ -8,12 +8,17 @@
     padding: 0 100px;
     box-sizing: border-box;
     overflow-x: hidden;    
+    margin-bottom: 0;
 }
 
 .image_container {
   display: flex;
   align-items: center;
   margin-left: 0;  
+}
+.main_image{
+  width: 100%;
+  margin-left: 0;
 }
 .image_logo {
   height: auto;
