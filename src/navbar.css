@@ -144,6 +144,7 @@
   @media (max-width: 500px) {
     .navbar_container {
       padding: 10px;
+      margin-bottom: 14px;
     }
 
     .image_container{
@@ -166,6 +167,7 @@
   @media (max-width: 400px) {
     .navbar_container {
       padding: 5px;
+      margin-bottom: 14px;
     }
 
     .image_container{

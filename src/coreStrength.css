@@ -310,7 +310,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 66px;
+    margin-left: 30px;
 }
 
 .info_box_text{
@@ -335,12 +336,20 @@
     letter-spacing: 0.05rem;
     word-spacing: 5px;
     fill: #000000;
-    color: #000000;
+    color: #FFFFFF;
     background-color: #D3C799;
     border-radius: 10px 10px 10px 10px;
     box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .info_box_number:hover{
     color: #FFFFFF;
     background-color: #000000;
+}
+
+@media (max-width: 500px){
+
+    .info_box_number{
+        margin-left: -40px;
+    }
 }
