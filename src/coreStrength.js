@@ -11,6 +11,9 @@ const { setIsInputModalOpen } = props;
       <div className='image_container'>
         <img className='main_image' fetchpriority="high" decoding="async" src="MarketingDocket_page-0004.jpg" alt="" data-no-retina=""/>
       </div>
+      <div className='image_container'>
+        <img className='main_image_2' fetchpriority="high" decoding="async" src="MarketingDocket_page-0005.jpg" alt="" data-no-retina=""/>
+      </div>
 
       <div className="info_box">
         <div className="info_box_text">

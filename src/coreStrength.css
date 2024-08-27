@@ -14,11 +14,20 @@
   }
 
   .main_image {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    max-width: 100%; 
+    object-fit: fill;
+    position: relative;
+  }
+  .main_image_2 {
     width: 100%;
     height: auto;
     max-width: 100%; 
     object-fit: fill;
     position: relative;
+    margin-top: 80px;
   }
 
 .core_strength_header{
@@ -74,7 +83,7 @@
 
 @media (max-width: 1200px) {
     .core_strength_container{
-        margin: 36px 100px;
+        /* margin: 36px 100px; */
     }
 }
 @media (max-width: 768px) {
