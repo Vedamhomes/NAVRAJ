@@ -20,6 +20,8 @@
     max-width: 100%; 
     object-fit: fill;
     position: relative;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12);
   }
   .main_image_2 {
     width: 100%;
@@ -27,7 +29,7 @@
     max-width: 100%; 
     object-fit: fill;
     position: relative;
-    margin-top: 80px;
+    margin-top: 50px;
   }
 
 .core_strength_header{
@@ -92,11 +94,14 @@
     }
 }
 @media (max-width: 500px) {
-    .core_strength_container{
+    /* .core_strength_container{
         margin: 50px 20px;
-    }
+    } */
     .core_strength_content_box{
         height: 225px;
+    }
+    .main_image{
+        margin-top: -14px;
     }
 }
 
@@ -295,6 +300,9 @@
     .form_input_box{
         padding: 0;
         margin: 0;
+    }
+    .image_container{
+        margin: 50px 20px;
     }
 }
 
