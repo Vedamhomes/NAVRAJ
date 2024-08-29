@@ -126,7 +126,7 @@ align-items: flex-start;
 /* Additional adjustments for very small screens */
 @media (max-width: 480px) {
   .legacy_container{
-      padding: 30px;
+      padding: 12px 30px;
   }
   .info_container {
       gap: 25px; /* Optionally reduce gap for very small screens */
