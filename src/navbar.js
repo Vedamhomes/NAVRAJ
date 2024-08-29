@@ -1,16 +1,19 @@
 import React from "react";
 import style from "./navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
   const {setIsInputModalOpen} = props;
   return (
     <div className="navbar_container">
       <div className="image_container">
-        <img
-          className="image_logo"
-          src="https://navrajindia.com/wp-content/uploads/2023/12/Navraj-logo-Gold-1.png"
-          alt="Navraj-logo-Gold"
-        />
+        <Link to="/">
+          <img
+            className="image_logo"
+            src="https://navrajindia.com/wp-content/uploads/2023/12/Navraj-logo-Gold-1.png"
+            alt="Navraj-logo-Gold"
+          />
+        </Link>
       </div>
 
       <nav className="navbar_item">

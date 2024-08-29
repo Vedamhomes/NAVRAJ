@@ -1,31 +1,32 @@
-import { useState } from 'react';
-import './App.css';
-import CoreStrength from './coreStrength';
-import Footer from './footer';
-import MainContent from './mainContent';
-import Navbar from './navbar';
-import UserInputModal from './UserInputModal';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useState } from "react";
+import "./App.css";
+import CoreStrength from "./coreStrength";
+import Footer from "./footer";
+import MainContent from "./mainContent";
+import Navbar from "./navbar";
+import UserInputModal from "./UserInputModal";
+import Home from "./Home";
+import Projects from './Projects';
+import Legacy from './Legacy';
+import Gallary from './Gallary';
+import Leadership from './Leadership.js';
 
 function App() {
-
-  const [ isInputModalOpen, setIsInputModalOpen] = useState(false);
+  const [isInputModalOpen, setIsInputModalOpen] = useState(false);
   return (
-    <div className="App">
-      <Navbar setIsInputModalOpen={setIsInputModalOpen} />
-      <div className='image_container'>
-        <img className='main_image' fetchpriority="high" decoding="async" src="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg" alt="" data-lazyload="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg" data-no-retina="" data-src-rs-ref="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg" />
-        <div className="image_container_txt_box centered">Extraordinaire Experiences. Extraordinaire Life. </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/leadership" element={<Leadership />} />
+          <Route path="/legacy" element={<Legacy />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="gallary" element={<Gallary />} />
+        </Routes>
       </div>
-      <MainContent />
-
-      <CoreStrength setIsInputModalOpen={setIsInputModalOpen} />
-
-      <Footer />
-
-    {isInputModalOpen && (
-      <UserInputModal isInputModalOpen={isInputModalOpen} setIsInputModalOpen={setIsInputModalOpen} />
-    )}
-    </div>
+    </Router>
   );
 }
 
