@@ -3,6 +3,7 @@ import style from "./style.css";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import UserInputModal from "../UserInputModal";
+import Enquire from "../components/enquire";
 
 const Legacy = () => {
   const [isInputModalOpen, setIsInputModalOpen] = useState(false);
@@ -66,6 +67,7 @@ const Legacy = () => {
           </div>
         </section>
       </div>
+      <Enquire setIsInputModalOpen={setIsInputModalOpen}/>
       <Footer />
 
       {isInputModalOpen && (

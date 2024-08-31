@@ -3,6 +3,7 @@ import styles from "./style.css";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import UserInputModal from "../UserInputModal";
+import Enquire from "../components/enquire";
 
 const Leadership = () => {
   const [isInputModalOpen, setIsInputModalOpen] = useState(false);
@@ -101,6 +102,7 @@ const Leadership = () => {
         </section>
       </div>
 
+      <Enquire setIsInputModalOpen={setIsInputModalOpen}/>
       <Footer />
 
       {isInputModalOpen && (
