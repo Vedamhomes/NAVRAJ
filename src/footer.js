@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./footer.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -8,22 +10,49 @@ const Footer = () => {
       <div className="footer_content_section">
         <div className="footer_image_and_about">
           <Link to="/">
-          <figure className="footer_figure">
-            <img
-              className="footer_image"
-              width="350"
-              height="92"
-              src="https://navrajindia.com/wp-content/uploads/2023/12/Navraj-logo-Gold-1.png"
-              alt="Navraj Infratech logo"
+            <figure className="footer_figure">
+              <img
+                className="footer_image"
+                width="350"
+                height="92"
+                src="https://navrajindia.com/wp-content/uploads/2023/12/Navraj-logo-Gold-1.png"
+                alt="Navraj Infratech logo"
               />
-          </figure>
-              </Link>
+            </figure>
+          </Link>
           <div className="footer_image_box_content">
             NAVRAJ INFRATECH - For over a decade, our exceptional team has
             envisioned Gurugram's skyline, transforming living spaces with
             quality and vision.
           </div>
+        <div class="wrapper">
+          <a href="#" class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <span>
+              <FontAwesomeIcon icon={faFacebook} />
+            </span>
+          </a>
+          <a href="#" class="icon twitter">
+            <div class="tooltip">Twitter</div>
+            <span>
+            <FontAwesomeIcon icon={faTwitter} />
+            </span>
+          </a>
+          <a href="#" class="icon instagram">
+            <div class="tooltip">Instagram</div>
+            <span>
+            <FontAwesomeIcon icon={faInstagram} />
+            </span>
+          </a>
+          <a href="#" class="icon youtube">
+            <div class="tooltip">Youtube</div>
+            <span>
+            <FontAwesomeIcon icon={faYoutube} />
+            </span>
+          </a>
         </div>
+        </div>
+
 
         <div className="footer_other">
           <div className="footer_other_about">

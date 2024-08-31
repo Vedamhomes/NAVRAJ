@@ -35,7 +35,7 @@ const MainContent = () => {
             follow.
           </p>
 
-          <p className="first_section_right_p third_section">
+          <p className="first_section_right_p">
             Be a part of their story, be a part of something big.
           </p>
 
