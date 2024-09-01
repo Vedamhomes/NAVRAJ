@@ -26,26 +26,26 @@ const Footer = () => {
             quality and vision.
           </div>
         <div class="wrapper">
-          <a href="#" class="icon facebook">
-            <div class="tooltip">Facebook</div>
+          <a  class="icon facebook">
+            {/* <div class="tooltip">Facebook</div> */}
             <span>
               <FontAwesomeIcon icon={faFacebook} />
             </span>
           </a>
-          <a href="#" class="icon twitter">
-            <div class="tooltip">Twitter</div>
+          <a class="icon twitter">
+            {/* <div class="tooltip">Twitter</div> */}
             <span>
             <FontAwesomeIcon icon={faTwitter} />
             </span>
           </a>
-          <a href="#" class="icon instagram">
-            <div class="tooltip">Instagram</div>
+          <a class="icon instagram">
+            {/* <div class="tooltip">Instagram</div> */}
             <span>
             <FontAwesomeIcon icon={faInstagram} />
             </span>
           </a>
-          <a href="#" class="icon youtube">
-            <div class="tooltip">Youtube</div>
+          <a class="icon youtube">
+            {/* <div class="tooltip">Youtube</div> */}
             <span>
             <FontAwesomeIcon icon={faYoutube} />
             </span>
