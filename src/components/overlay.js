@@ -1,6 +1,6 @@
 // Overlay.js
-import React, { useState, useEffect } from 'react';
-import styles from './overlat.css';
+import React, { useState, useEffect } from "react";
+import styles from "./overlat.css";
 
 const Overlay = () => {
   const [showOverlay, setShowOverlay] = useState(true);
@@ -13,8 +13,18 @@ const Overlay = () => {
 
   return (
     <div className="overlay">
+      <div className="body_div">
+        <div class="sign">
+          <span class="fast-flicker">Coming</span>&nbsp;
+          <span class="flicker">soon</span>
+        </div>
+      </div>
       <img src="MarketingDocket_page-0002.jpg" alt="Welcome" />
-      <button className="close-btn" onClick={handleClose} aria-label="Close Overlay"></button>
+      <button
+        className="close-btn"
+        onClick={handleClose}
+        aria-label="Close Overlay"
+      ></button>
     </div>
   );
 };
