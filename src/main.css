@@ -1,8 +1,8 @@
 .first_section {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal columns for left and right sections */
-  gap: 50px; /* Gap between columns */
-  padding: 15px 200px 30px 200px;
+  gap: 70px;
+  padding: 15px 150px 30px 150px;
 }
 .main_container{
   margin-top: 4 0px;
@@ -21,6 +21,7 @@
   line-height: 1.5rem;
   letter-spacing: 0.05rem;
   word-spacing: 0.2rem;
+  margin: 30px 0 6px 0;
 }
 
 .first_section_left_img {
