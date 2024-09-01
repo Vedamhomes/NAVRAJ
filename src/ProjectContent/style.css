@@ -90,11 +90,33 @@
 }
 
 @media (max-width: 1200px) {
-
+    
 }
 @media (max-width: 768px) {
-
+    .section_one_header{
+        width: 95%;
+    }
+    .section_one_header h1 {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
 }
 @media (max-width: 500px) {
-
+    .section_one_header{
+        width: 100%;
+    }
+    .section_one_header h1 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .section_one_header p{
+        color: #616161;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    letter-spacing: 0;
+    padding: 0;
+    }
 }
