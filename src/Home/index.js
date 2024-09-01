@@ -5,12 +5,14 @@ import MainContent from "../mainContent";
 import CoreStrength from "../coreStrength";
 import Footer from "../footer";
 import UserInputModal from "../UserInputModal";
+import Overlay from "../components/overlay";
 
 const Home = () => {
     const [isInputModalOpen, setIsInputModalOpen] = useState(false);
 
   return (
     <div className="App">
+      <Overlay />
       <Navbar setIsInputModalOpen={setIsInputModalOpen} />
       <div className="image_container">
         <img
