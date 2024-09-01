@@ -13,13 +13,13 @@ const Overlay = () => {
 
   return (
     <div className="overlay">
-      <div className="body_div">
+      {/* <div className="body_div">
         <div class="sign">
           <span class="fast-flicker">Coming</span>&nbsp;
           <span class="flicker">soon</span>
         </div>
-      </div>
-      <img src="MarketingDocket_page-0002.jpg" alt="Welcome" />
+      </div> */}
+      <img src="coming_soon_new.jpg" alt="Welcome" />
       <button
         className="close-btn"
         onClick={handleClose}
