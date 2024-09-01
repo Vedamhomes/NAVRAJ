@@ -92,12 +92,6 @@
   margin-right: 20px;
 }
 
-.info_right_btn:hover{
-    color: #000000;
-    background-color: #D1C292;
-    border-color: #D1C292;
-    font-weight: 600;
-}
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .first_section {
@@ -230,6 +224,22 @@
   border-color: #ffffff;
   border-radius: 10px 10px 10px 10px;
   margin-top: 16px;
+}
+.info_right_btn_a{
+  color: #ffffff;
+}
+.info_right_btn_a:hover{
+  color: #000000 !important;
+  background-color: #D1C292;
+  border-color: #D1C292;
+  font-weight: 600;
+}
+
+.info_right_btn:hover{
+    color: #000000;
+    background-color: #D1C292;
+    border-color: #D1C292;
+    font-weight: 600;
 }
 
 .info_right_section {

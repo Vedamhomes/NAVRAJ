@@ -72,7 +72,8 @@ const MainContent = () => {
               vicinities across Haryana and Delhi NCR.
             </p>
 
-            <button className="info_right_btn">OUR projects</button>
+            <button className="info_right_btn">
+              <a className="info_right_btn_a" href="/projects">OUR projects</a></button>
           </div>
           <div className="info_right_section animate__animated">
             <div className="info_left_box animate__animated animate__fadeInTopRight">
