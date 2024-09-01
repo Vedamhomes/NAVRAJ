@@ -206,7 +206,7 @@
 .glitch {
   position: relative;
   line-height: 1.2;
-  animation: shift 4s ease-in-out infinite alternate;
+  /* animation: shift 4s ease-in-out infinite alternate; */
   z-index: 1;
 }
 
@@ -218,7 +218,7 @@
   text-shadow: -1px 0 #00ffff;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-before 3s infinite linear alternate-reverse;
+  /* animation: noise-before 3s infinite linear alternate-reverse; */
 }
 
 .glitch:after {
@@ -230,7 +230,7 @@
   color: #fff;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-after 2s infinite linear alternate-reverse;
+  /* animation: noise-after 2s infinite linear alternate-reverse; */
 }
 
 @keyframes noise-before {
