@@ -45,6 +45,11 @@
     transform: translate(0px, 0px);
     visibility: visible;
   }
+  .image_container_txt_box marquee{
+    height: 100%;
+    width: 100%;
+    line-height: 100%;
+  }
   
   .centered {
     position: absolute;
@@ -67,7 +72,7 @@
       position: relative;
     }
     .centered{
-      left: 50%;
+      left: 40%;
     }
     .image_container_txt_box{
       padding: 0;
@@ -82,7 +87,7 @@
       position: relative;
     }
     .centered{
-      top: 70%;
+      top: 65%;
     }
     .image_container_txt_box{
       font-size: 1rem;
@@ -100,7 +105,7 @@
       position: relative;
     }
     .centered{
-      top: 75%;
+      top: 55%;
     }
     .image_container_txt_box{
       font-size: 10px;

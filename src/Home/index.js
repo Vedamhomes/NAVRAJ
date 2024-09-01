@@ -8,7 +8,7 @@ import UserInputModal from "../UserInputModal";
 import Overlay from "../components/overlay";
 
 const Home = () => {
-    const [isInputModalOpen, setIsInputModalOpen] = useState(false);
+  const [isInputModalOpen, setIsInputModalOpen] = useState(false);
 
   return (
     <div className="App">
@@ -26,7 +26,7 @@ const Home = () => {
           data-src-rs-ref="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
         />
         <div className="image_container_txt_box centered">
-          Extraordinaire Experiences. Extraordinaire Life.{" "}
+          <marquee hspace="20">Extraordinaire Experiences. Extraordinaire Life. </marquee>
         </div>
       </div>
       <MainContent />
