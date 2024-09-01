@@ -90,11 +90,14 @@
     font-weight: 600;
     word-spacing: 0.4em;
 
-    color: #ffe6ff;
+    color: linear-gradient(90deg, rgba(186,148,62,1) 0%, rgba(236,172,32,1) 20%, rgba(186,148,62,1) 39%, rgba(249,244,180,1) 50%, rgba(186,148,62,1) 60%, rgba(236,172,32,1) 80%, rgba(186,148,62,1) 100%);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent;	 */
+    /* color: #ffe6ff;
     text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
       -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
-    animation: shine 2s forwards, flicker 3s infinite;
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483; */
+    /* animation: shine 2s forwards, flicker 3s infinite; */
   }
   
   @keyframes blink {
@@ -104,17 +107,17 @@
     75% {
       color: #ffe6ff;
       text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-        -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-        0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+        -0.2rem 0.1rem 1rem #FFE55C, 0.2rem 0.1rem 1rem #FFE55C,
+        0 -0.5rem 2rem #FFD700, 0 0.5rem 3rem #FFD700;
     }
     28%,
     33% {
-      color: #ff65bd;
+      color: #FFE55C;
       text-shadow: none;
     }
     82%,
     97% {
-      color: #ff2483;
+      color: #FFD700    ;
       text-shadow: none;
     }
   }
@@ -129,14 +132,14 @@
   
   @keyframes shine {
     0% {
-      color: #6b1839;
+      color: #FFD700;
       text-shadow: none;
     }
     100% {
       color: #ffe6ff;
-      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-        -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-        0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #FFE55C,
+        -0.2rem 0.1rem 1rem #FFE55C, 0.2rem 0.1rem 1rem #FFE55C,
+        0 -0.5rem 2rem #FFD700, 0 0.5rem 3rem #FFD700;
     }
   }
   
@@ -269,7 +272,17 @@
   @media (max-width: 1200px) {
 
     .body_div{
-        top: 18%;
+        top: 24%;
+      }
+
+      .sign{
+
+      }
+  }
+  @media (max-width: 1000px) {
+
+    .body_div{
+        top: 28%;
       }
 
       .sign{
@@ -280,26 +293,30 @@
   @media (max-width: 900px) {
 
     .body_div{
-        top: 20%;
+        top: 30%;
       }
     }
   @media (max-width: 750px) {
 
     .body_div{
-        top: 25%;
+        top: 35%;
       }
     }
   @media (max-width: 650px) {
 
     .body_div{
-        top: 29%;
+        top: 39%;
+      }
+      .sign{
+        font-size: 2.1rem;
+        font-weight: 500;
       }
     }
     
     @media (max-width: 550px) {
         
         .body_div{
-            top: 32%;
+            top: 40%;
           }
           .sign{
             font-size: 2rem;
@@ -309,7 +326,7 @@
     @media (max-width: 450px) {
         
         .body_div{
-            top: 36%;
+            top: 40%;
           }
           .sign{
             font-size: 1.8rem;
@@ -319,7 +336,7 @@
     @media (max-width: 400px) {
         
         .body_div{
-            top: 38%;
+            top: 42%;
           }
           .sign{
             font-size: 1.7rem;
@@ -329,7 +346,7 @@
     @media (max-width: 320px) {
         
         .body_div{
-            top: 40%;
+            top: 44%;
           }
           .sign{
             font-size: 1.15rem;
