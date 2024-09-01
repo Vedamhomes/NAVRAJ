@@ -54,7 +54,7 @@
   .centered {
     position: absolute;
     top: 62%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     font-size: 24px;
@@ -72,7 +72,7 @@
       position: relative;
     }
     .centered{
-      left: 40%;
+      left: 20%;
     }
     .image_container_txt_box{
       padding: 0;
