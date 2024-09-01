@@ -10,7 +10,6 @@ import UserInputModal from "./UserInputModal";
 import Home from "./Home";
 import Projects from './Projects';
 import Legacy from './Legacy';
-import Gallary from './Gallary';
 import Leadership from './Leadership.js';
 
 function App() {
@@ -22,8 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/legacy" element={<Legacy />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="gallary" element={<Gallary />} />
+            <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>
