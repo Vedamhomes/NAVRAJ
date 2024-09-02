@@ -1,11 +1,15 @@
 import React, { useRef } from "react";
 import styles from "./coreStrength.css";
 import emailjs from "@emailjs/browser";
+import { useLocation } from 'react-router-dom';
 import Notify from "simple-notify";
 import "simple-notify/dist/simple-notify.css";
 
 const CoreStrength = (props) => {
 const { setIsInputModalOpen } = props;
+
+const location = useLocation();
+
   return (
     <div className="core_strength_container">
       <div className='image_container'>
@@ -14,6 +18,9 @@ const { setIsInputModalOpen } = props;
       <div className='image_container'>
         <img className='main_image_2' fetchpriority="high" decoding="async" src="MarketingDocket_page-0005.jpg" alt="" data-no-retina=""/>
       </div>
+      {location.pathname === '/projects' && (<div className='image_container'>
+        <img className='main_image_2 main_image_3' fetchpriority="high" decoding="async" src="our_core_strength01.png" alt="" data-no-retina=""/>
+      </div>)}
 
       <div className="info_box">
         <div className="info_box_text">

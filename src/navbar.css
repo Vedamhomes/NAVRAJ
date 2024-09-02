@@ -43,6 +43,9 @@
     padding: 0;
   }
   
+  .main_image_3{
+   margin-top: 0;
+  }
   .navbar_list li {
     font-size: 14px;
     font-weight: 500;
