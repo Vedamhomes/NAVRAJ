@@ -37,7 +37,7 @@ const Leadership = () => {
           </div>
           <div className="info_container_right">
             <h2 className="info_heading">
-              “Transparency is the key to win the confidence of the consumer.”
+            "Transparency is the cornerstone of building consumer trust," 
             </h2>
             <div className="info_sub_heading_box">
               <p>Mr. Raj Yadav</p>
@@ -45,17 +45,10 @@ const Leadership = () => {
             </div>
             <div className="info_sub_heading_content">
               <span className="info_sub_heading_content_one">
-                Mr. Raj has an extensive experience in land aggregation and
-                liaisoning. He is incredibly skilled in identifying the right
-                location based on the target segment, kind of product, growth
-                perspective, connectivity, and upcoming infrastructure in close
-                vicinity of the property.
+              With a wealth of experience in land acquisition and strategic partnerships, Mr. Yadav possesses an uncanny ability to pinpoint prime locations that align perfectly with specific target markets, project types, future growth potential, accessibility, and nearby infrastructure development.
               </span>
               <span className="info_sub_heading_content_two">
-                Being very transparent in his modus-operandi, he ensures that
-                all the relevant approvals are in place from the concerned
-                authorities with utmost clarity, robust paperwork and certain
-                timelines.
+              Renowned for his unwavering commitment to transparency, Mr. Yadav ensures that all necessary approvals from regulatory bodies are obtained with meticulous precision, comprehensive documentation, and strict adherence to timelines. This meticulous approach fosters trust and confidence among stakeholders, solidifying Navraj Infratech's reputation as a reliable and trustworthy partner in the real estate industry.
               </span>
             </div>
           </div>
@@ -73,8 +66,7 @@ const Leadership = () => {
           </div>
           <div className="info_container_right">
             <h2 className="info_heading">
-              “Listening to the consumer is the first step in delivering a
-              successful product.”
+            "Active listening to our customers is the fundamental step in creating successful products,"
             </h2>
             <div className="info_sub_heading_box">
               <p>Mr. Naveen Yadav</p>
@@ -82,20 +74,10 @@ const Leadership = () => {
             </div>
             <div className="info_sub_heading_content">
               <span className="info_sub_heading_content_one">
-                An intense market observer and a true analyst in identifying the
-                need gap and coming up with a solution for every product he puts
-                his efforts in. Naveen interacts with the potential target
-                segment to understand the spectrum of requirements in terms of
-                how to make the living experience of the consumer delightful and
-                convenient.
+              A keen observer of market trends and a skilled analyst, Mr. Yadav excels in identifying unmet consumer needs and developing innovative solutions. To ensure that our products truly resonate with our target audience, Mr. Yadav actively engages with potential customers to gain a deep understanding of their aspirations and preferences for a comfortable and convenient lifestyle.
               </span>
               <span className="info_sub_heading_content_two">
-                In this fast-paced environment, rising inﬂation and already
-                existing competition has made the market very challenging
-                especially when it comes to offering larger living space at a
-                competitive cost while maintaining quality and timeline
-                standards. This is where his expertise plays a critical role in
-                generating consumer delight.
+              In today's rapidly evolving market, characterized by rising inflation and intense competition, offering spacious living spaces at competitive prices while maintaining uncompromising standards of quality and timely delivery presents a significant challenge. Mr. Yadav's expertise in this area is invaluable, as he leverages his insights to create products that not only meet but exceed customer expectations, ensuring their complete satisfaction.
               </span>
             </div>
           </div>

@@ -10,8 +10,9 @@
 
 .leadership_container {
     width: 100%;
-    padding: 100px 200px; /* Space around the container */
+    padding: 100px 144px; /* Space around the container */
     box-sizing: border-box;
+    padding-bottom: 24px;
 }
 
 .info_container {

@@ -21,9 +21,7 @@ const Footer = () => {
             </figure>
           </Link>
           <div className="footer_image_box_content">
-            NAVRAJ INFRATECH - For over a decade, our exceptional team has
-            envisioned Gurugram's skyline, transforming living spaces with
-            quality and vision.
+          NAVRAJ INFRATECH: A decade of shaping Gurugram's skyline with expertise and innovation. Pioneering innovative living solutions, elevating living standards with visionary design and impeccable craftsmanship.
           </div>
         <div class="wrapper">
           <a  class="icon facebook">

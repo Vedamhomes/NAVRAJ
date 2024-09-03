@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./main.css";
-import 'animate.css';
+import "animate.css";
 
 const MainContent = () => {
   return (
@@ -23,16 +23,16 @@ const MainContent = () => {
 
         <div className="first_section_right animate__animated animate__backInRight">
           <p className="first_section_right_p">
-            Weaving a story of unparalleled appetite that gave rise to
-            exceptional thinkers and builders who have since 15 years dedicated
-            their lives to building quality living spaces and building them
-            differently.
+            For fifteen years, a unique appetite has fueled the creation of
+            extraordinary living spaces. Born from a desire for something more,
+            these exceptional thinkers and builders have dedicated their lives
+            to redefining the concept of quality.
           </p>
 
           <p className="first_section_right_p">
-            Their journey, their plans for the company, their vision, and their
-            management plan is intricately elucidated on the pages that are to
-            follow.
+            Discover our journey, our ambitious plans for the future, and our
+            unwavering vision. Join us in shaping a legacy of innovation and
+            excellence.
           </p>
 
           <p className="first_section_right_p">
@@ -61,44 +61,56 @@ const MainContent = () => {
         <div className="info_section_box">
           <div className="info_left_section">
             <h2 className="info_right_header animate__animated animate__backInDown">
-              Navraj Group has acquired a sellable land parcel area of 5.3
-              million sq. ft
+              Navraj Group has expanded its land holdings with the acquisition
+              of a 5.3 million square foot parcel.
             </h2>
 
             <p className="info_right_content animate__animated animate__backInUp">
-              Around 4 million is envisioned for premium luxury residential
-              projects and rest of the area is planned for smart mix use
-              commercial and retail projects in the most strategic and lucrative
-              vicinities across Haryana and Delhi NCR.
+              Our plans include creating luxurious residential communities on
+              approximately 4 million square feet of the land. The remaining
+              area will be transformed into a dynamic commercial and retail hub,
+              strategically situated in the most desirable locations within
+              Haryana and Delhi NCR.
             </p>
 
             <button className="info_right_btn">
-              <a className="info_right_btn_a" href="/projects">OUR projects</a></button>
+              <a className="info_right_btn_a" href="/projects">
+                OUR projects
+              </a>
+            </button>
           </div>
           <div className="info_right_section animate__animated">
             <div className="info_left_box animate__animated animate__fadeInTopRight">
-              <span className="info_left_header">91% Growth</span>
+              <span className="info_left_header">
+                Soaring High: Navraj’s Remarkable Growth
+              </span>
 
               <p className="info_left_content">
-                Navraj has recorded a growth of 91% over 2023, the year looks
-                significantly promising as we continue to grow our brand equity.
+                Navraj has achieved a staggering 91% growth in 2023, solidifying
+                our position as a leading force in the luxury real estate
+                market. As we continue to expand our brand equity, the future
+                looks exceptionally bright.
               </p>
             </div>
             <div className="info_left_box animate__animated  animate__fadeInRight">
-              <span className="info_left_header">Record Construction</span>
+              <span className="info_left_header">Impressive Progress</span>
 
               <p className="info_left_content">
-                Our towers rise with unmatched efficiency, showcasing our
-                commitment to innovation and timely delivery.{" "}
+                Our commitment to innovation and efficiency is evident in our
+                rapidly rising towers, a testament to our ability to deliver
+                projects on time.
               </p>
             </div>
             <div className="info_left_box animate__animated animate__fadeInBottomRight">
-              <span className="info_left_header">Trusted by the Elite</span>
+              <span className="info_left_header">
+                The Choice of the Discerning
+              </span>
 
               <p className="info_left_content">
-                Preferred by high-net-worth individuals, our client testimonials
-                reflect the trust placed in us to deliver exceptional results in
-                luxury real estate.{" "}
+                Trusted by discerning high-net-worth individuals, Navraj has
+                earned a reputation for excellence. Our client testimonials are
+                a reflection of the trust and confidence placed in us to create
+                exceptional living spaces.
               </p>
             </div>
           </div>
