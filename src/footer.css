@@ -47,9 +47,9 @@
   /* Grid for Other Sections */
   .footer_other {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 20rem;
-    padding-top: 44px;
+    grid-template-columns: repeat(2, 1fr); /* 50% width for each item */
+    grid-column-gap: 80px;
+    grid-row-gap: 0px;
   }
   
   .footer_other_about {
