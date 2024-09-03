@@ -15,9 +15,8 @@ const MainContent = () => {
             decoding="async"
             // width="600"
             // height="350"
-            src="https://navrajindia.com/wp-content/uploads/2024/05/about-navraj-infratech-1.jpg"
+            src="home_first_img.jpeg"
             alt=""
-            srcSet="https://navrajindia.com/wp-content/uploads/2024/05/about-navraj-infratech-1.jpg 1000w, https://navrajindia.com/wp-content/uploads/2024/05/about-navraj-infratech-1-300x200.jpg 300w, https://navrajindia.com/wp-content/uploads/2024/05/about-navraj-infratech-1-768x512.jpg 768w, https://navrajindia.com/wp-content/uploads/2024/05/about-navraj-infratech-1-900x600.jpg 900w, https://navrajindia.com/wp-content/uploads/2024/05/about-navraj-infratech-1-496x331.jpg 496w"
           ></img>
         </div>
 
@@ -36,7 +35,7 @@ const MainContent = () => {
           </p>
 
           <p className="first_section_right_p">
-            Be a part of their story, be a part of something big.
+            Be a part of our story, be a part of something big.
           </p>
 
           <div className="about_icno_box">
