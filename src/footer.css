@@ -46,8 +46,8 @@
   
   /* Grid for Other Sections */
   .footer_other {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 50% width for each item */
+    display: flex;
+    justify-content: center;
     grid-column-gap: 80px;
     grid-row-gap: 0px;
   }
@@ -129,6 +129,7 @@
     }
     
     .footer_other {
+        display: grid;
         grid-template-columns: 1fr;
         margin-left: 14px;
     }
@@ -144,6 +145,7 @@
         padding: 14px 20px;
     }
     .footer_other {
+        display: grid;
         grid-template-columns: 1fr;
         margin-left: 14px;
     }
