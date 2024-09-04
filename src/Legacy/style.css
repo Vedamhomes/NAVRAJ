@@ -6,7 +6,7 @@
 
 .legacy_container {
   width: 100%;
-  padding: 100px 200px; /* Space around the container */
+  padding: 100px 190px; /* Space around the container */
   box-sizing: border-box;
 }
 
@@ -231,6 +231,12 @@
   letter-spacing: 0.02rem;
   word-spacing: 0.1rem;
 }
+
+.mission_approach_right_box{
+  height: 100%;
+  width: 100%;
+  margin-right: -20px;
+}
 /* Reponsive */
 
 /* Adjust for smaller screens */
@@ -248,6 +254,12 @@
 @media (max-width: 768px) {
   .legacy_container {
     padding: 40px;
+  }
+  .mission_approach_left_box_content{
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    word-spacing: 0;
+    padding: 20px 0;
   }
   .info_container {
     grid-template-columns: 1fr; /* Stack columns on top of each other */
