@@ -16,10 +16,10 @@ const location = useLocation();
         <img className='main_image' fetchpriority="high" decoding="async" src="MarketingDocket_page-0004.jpg" alt="" data-no-retina=""/>
       </div>
       <div className='image_container'>
-        <img className='main_image_2' fetchpriority="high" decoding="async" src="MarketingDocket_page-0005.jpg" alt="" data-no-retina=""/>
+        <img className='main_image_3' fetchpriority="high" decoding="async" src="natural_light_room_img.jpg" alt="" data-no-retina=""/>
       </div>
       <div className='image_container'>
-        <img className='main_image_3' fetchpriority="high" decoding="async" src="natural_light_room_img.jpg" alt="" data-no-retina=""/>
+        <img className='main_image_2' fetchpriority="high" decoding="async" src="MarketingDocket_page-0005.jpg" alt="" data-no-retina=""/>
       </div>
       {location.pathname === '/projects' && (<div className='image_container'>
         <img className='main_image_2 main_image_3' fetchpriority="high" decoding="async" src="our_core_strength01.png" alt="" data-no-retina=""/>
