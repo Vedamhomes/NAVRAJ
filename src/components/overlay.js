@@ -4,6 +4,24 @@ import styles from "./overlat.css";
 
 const Overlay = () => {
   const [showOverlay, setShowOverlay] = useState(true);
+  const [imageSrc, setImageSrc] = useState('coming_soon_new.jpg');
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 500) {
+        setImageSrc('coming_soon_new_mobile.jpg');
+      } else {
+        setImageSrc('coming_soon_new.jpg');
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Call it once to set the initial state
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const handleClose = () => {
     setShowOverlay(false);
@@ -13,13 +31,7 @@ const Overlay = () => {
 
   return (
     <div className="overlay">
-      {/* <div className="body_div">
-        <div class="sign">
-          <span class="fast-flicker">Coming</span>&nbsp;
-          <span class="flicker">soon</span>
-        </div>
-      </div> */}
-      <img src="coming_soon_new.jpg" alt="Welcome" />
+      <img src={imageSrc} alt="Welcome" />
       <a href="/legacy" className="click_me_btn">
         <img className="click_me_btn_img" src="button.png" alt="click me" />
       </a>
