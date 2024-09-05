@@ -4,11 +4,7 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import UserInputModal from "../UserInputModal";
 import Enquire from "../components/enquire";
-import
-{ Collapse }
-from
-"antd"
-;
+import { Collapse } from "antd";
 
 const { Panel } = Collapse;
 
@@ -86,16 +82,28 @@ const Legacy = () => {
                   How it all started?
                 </h1>
                 <p className="info_container_2_left_p1_content">
-                  “We started with the development of agricultural lands and
-                  farmhouses”
+                  “From Farms to Homes”
                 </p>
               </div>
 
               <div className="info_container_2_left_p2">
                 <p className="info_container_2_left_p2_content">
-                  This initial experience gave us an insight into the forbidden
-                  gap between the lifestyle and aspirations of our end
-                  consumers.
+                  Navraj Infratech's roots lie in the development of
+                  agricultural lands and farmhouses. Building upon this
+                  foundation, we ventured into providing land parcels to
+                  renowned developers and constructing residential floors in
+                  prime locations. Through these early experiences, we gained
+                  invaluable insights into the often-overlooked disparity
+                  between the lifestyle aspirations of our end-users and the
+                  available options in the market.
+                </p>
+                <p className="info_container_2_left_p2_content">
+                  A significant challenge we identified was the direct
+                  correlation between larger living spaces, superior
+                  construction quality, premium aesthetics, and timely delivery
+                  with higher costs. This realization ignited our determination
+                  to bridge this gap and address the pressing concerns of our
+                  customers.
                 </p>
               </div>
             </div>
@@ -148,20 +156,44 @@ const Legacy = () => {
           <div>
             <Collapse bordered={false}>
               <Panel header="Uncompromising Excellence:" key="1">
-                <p className="panel_p"><b>Quality First: </b> We prioritize delivering exceptional quality in every aspect of our work.</p>
-                <p className="panel_p"><b>Commitment to Perfection: </b> We strive for excellence in all our endeavors.</p>
+                <p className="panel_p">
+                  <b>Quality First: </b> We prioritize delivering exceptional
+                  quality in every aspect of our work.
+                </p>
+                <p className="panel_p">
+                  <b>Commitment to Perfection: </b> We strive for excellence in
+                  all our endeavors.
+                </p>
               </Panel>
               <Panel header="Collaborative Synergy:" key="2">
-                <p className="panel_p"><b>Teamwork Triumphs: </b> Our success is driven by the power of collaboration and teamwork.</p>
-                <p className="panel_p"><b>Synchronized Efforts: </b> We work together seamlessly to achieve our goals.</p>
+                <p className="panel_p">
+                  <b>Teamwork Triumphs: </b> Our success is driven by the power
+                  of collaboration and teamwork.
+                </p>
+                <p className="panel_p">
+                  <b>Synchronized Efforts: </b> We work together seamlessly to
+                  achieve our goals.
+                </p>
               </Panel>
               <Panel header="Strategic Precision:" key="3">
-                <p className="panel_p"><b>Data-Driven Decisions: </b> We make informed decisions based on thorough analysis and research.</p>
-                <p className="panel_p"><b>Meticulous Planning: </b> We meticulously plan and execute our projects to ensure success.</p>
+                <p className="panel_p">
+                  <b>Data-Driven Decisions: </b> We make informed decisions
+                  based on thorough analysis and research.
+                </p>
+                <p className="panel_p">
+                  <b>Meticulous Planning: </b> We meticulously plan and execute
+                  our projects to ensure success.
+                </p>
               </Panel>
               <Panel header="Continuous Innovation:" key="4">
-                <p className="panel_p"><b>Embracing Change: </b> We stay ahead of the curve by embracing innovation and adapting to new trends.</p>
-                <p className="panel_p"><b>Pioneering Solutions: </b> We are committed to developing innovative solutions that redefine the industry.</p>
+                <p className="panel_p">
+                  <b>Embracing Change: </b> We stay ahead of the curve by
+                  embracing innovation and adapting to new trends.
+                </p>
+                <p className="panel_p">
+                  <b>Pioneering Solutions: </b> We are committed to developing
+                  innovative solutions that redefine the industry.
+                </p>
               </Panel>
             </Collapse>
             ;
