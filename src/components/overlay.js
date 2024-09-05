@@ -20,6 +20,9 @@ const Overlay = () => {
         </div>
       </div> */}
       <img src="coming_soon_new.jpg" alt="Welcome" />
+      <a href="/legacy" className="click_me_btn">
+        <img className="click_me_btn_img" src="button.png" alt="click me" />
+      </a>
       <button
         className="close-btn"
         onClick={handleClose}
