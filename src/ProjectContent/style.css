@@ -91,6 +91,11 @@
 
 @media (max-width: 1200px) {
     
+    .section_two_header p{
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
 }
 @media (max-width: 768px) {
     .section_one_header{
@@ -99,6 +104,12 @@
     .section_one_header h1 {
         font-size: 1.1rem;
         font-weight: 500;
+    }
+
+    .section_two_header p{
+        width: 100%;
+        position: relative;
+        left: 0;
     }
 }
 @media (max-width: 500px) {
