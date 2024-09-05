@@ -104,7 +104,7 @@
     }
     
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .info_container {
         grid-template-columns: 1fr; /* Stack columns on top of each other */
         grid-auto-flow: row; /* Change flow direction to row for stacking */
