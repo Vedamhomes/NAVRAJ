@@ -23,7 +23,7 @@ const Legacy = () => {
           className="main_image"
           fetchpriority="high"
           decoding="async"
-          src="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
+          src="main_img.jpg"
           alt=""
           data-lazyload="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
           data-no-retina=""
