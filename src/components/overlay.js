@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./overlat.css";
 
-const Overlay = () => {
+const Overlay = (props) => {
+  const { setIsInputModalOpen } = props;
   const [showOverlay, setShowOverlay] = useState(true);
   const [imageSrc, setImageSrc] = useState('coming_soon_new.jpg');
 
@@ -27,14 +28,19 @@ const Overlay = () => {
     setShowOverlay(false);
   };
 
+  const hadleBtnCkick = () => {
+    setShowOverlay(false);
+    setIsInputModalOpen(true)
+  };
+
   if (!showOverlay) return null;
 
   return (
     <div className="overlay">
       <img src={imageSrc} alt="Welcome" />
-      <a href="/legacy" className="click_me_btn">
+      <div onClick={hadleBtnCkick} className="click_me_btn">
         <img className="click_me_btn_img" src="button.png" alt="click me" />
-      </a>
+      </div>
       <button
         className="close-btn"
         onClick={handleClose}

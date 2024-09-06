@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <div className="App">
-      <Overlay />
+      <Overlay setIsInputModalOpen={setIsInputModalOpen} />
       <Navbar setIsInputModalOpen={setIsInputModalOpen} />
       <div className="image_container">
         <img
