@@ -107,9 +107,9 @@ const Legacy = () => {
                 </p>
               </div>
             </div>
-            <div className="">
+            <div className="info_container_2_right">
               <img
-                className="info_container_2_right"
+                className="info_container_2_right_img"
                 src="antalyas_gallery_001.jpg"
                 alt="building"
               />

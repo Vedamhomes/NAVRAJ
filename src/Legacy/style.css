@@ -35,7 +35,7 @@
   line-height: 2.5rem;
   letter-spacing: 0.01rem;
   word-spacing: 0.1rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .legacy_info_image {
   width: 100%;
@@ -46,7 +46,6 @@
   object-fit: cover;
   position: relative;
   border-radius: 30px;
-  padding-top: 24px;
 }
 .info_container_right {
   display: flex;
@@ -118,11 +117,18 @@
   grid-row-gap: 20px;
 }
 
-.info_container_2_right {
+.info_container_2_right{
+  margin-left: 30px;
+}
+
+.info_container_2_right_img {
   width: 100%;
-  height: 100%;
+  height: 80%;
+  max-height: 100%;
+  object-fit: cover;
   max-width: 100%;
   border-radius: 20px;
+  margin-top: 60px;
   filter: brightness(120%) drop-shadow(8px 8px 10px gray);
 }
 .p2_second_content {
@@ -199,7 +205,7 @@
   line-height: 2.4rem;
   letter-spacing: 0.01rem;
   word-spacing: 0.1rem;
-  padding: 30px 20px;
+  padding: 30px 0;
 
 }
 .mission_approach_right_box_content {
@@ -210,7 +216,7 @@
   line-height: 2.4rem;
   letter-spacing: 0.01rem;
   word-spacing: 0.1rem;
-  padding: 30px 20px;
+  padding: 30px 0;
 
 }
 
@@ -241,6 +247,17 @@
 /* Reponsive */
 
 /* Adjust for smaller screens */
+@media (max-width: 1400px) {
+  .legacy_container {
+    padding: 80px;
+  }
+  .info_container {
+    gap: 40px;
+  }
+  .info_container_right {
+    margin-top: -20px;
+  }
+}
 @media (max-width: 1200px) {
   .legacy_container {
     padding: 80px;
