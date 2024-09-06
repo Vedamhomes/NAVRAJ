@@ -14,6 +14,9 @@ const location = useLocation();
     <div className="core_strength_container">
       <div className='image_container'>
         <img className='main_image_3' fetchpriority="high" decoding="async" src="natural_light_room_img.jpg" alt="" data-no-retina=""/>
+        <div onClick={() => setIsInputModalOpen(true)} className='main_image_4_box'>
+          <img className='main_image_4' fetchpriority="high" decoding="async" src="button2.png" alt="" data-no-retina=""/>
+        </div>
       </div>
       <div className='image_container'>
         <img className='main_image_2' fetchpriority="high" decoding="async" src="MarketingDocket_page-0004.jpg" alt="" data-no-retina=""/>
