@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "react-responsive-modal/styles.css";
 import styles from "./coreStrength.css";
 import emailjs from "@emailjs/browser";
@@ -7,6 +7,7 @@ import { Modal } from "react-responsive-modal";
 
 const UserInputModal = (props) => {
   const { isInputModalOpen, setIsInputModalOpen } = props;
+  const [phoneNumber, setPhoneNumber] = useState('+91');
   const form = useRef();
 
   const handleSubmit = (e) => {
@@ -17,7 +18,11 @@ const UserInputModal = (props) => {
 
     const formObject = Object.fromEntries(formData.entries());
 
-    // const { property_location, first_name, last_name, email_address, phone_number } = formObject;
+    const { property_location, first_name, last_name, email_address, phone_number } = formObject;
+    console.log('phoneNumber.length()', phoneNumber.length)
+    if(phoneNumber.length < 13){
+      return ;
+    }
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -70,8 +75,40 @@ const UserInputModal = (props) => {
           });
         }
       );
-    console.log("formObject", formObject);
   };
+  const handleBlur = () => {
+    const regex = /^\+91\d{10}$/;
+    if (!regex.test(phoneNumber)) {
+      alert('Please enter a valid phone number.');
+    }
+  };
+  const isRepeatingDigits = (number) => {
+    return new Set(number).size <= 3;
+  };
+  const handleChange = (event) => {
+    const value = event.target.value;
+    console.log('value', value);
+    
+    let formattedValue = value;
+    
+    if (value.startsWith('+91')) {
+      formattedValue = value.substring(3);
+    }else{
+      formattedValue = ''
+    }
+    
+    formattedValue = formattedValue.replace(/\s+/g, '');
+    
+    if (formattedValue.length <= 10) {
+      if (formattedValue.length >= 8 && isRepeatingDigits(formattedValue)) {
+        return;
+      }
+      setPhoneNumber('+91' + formattedValue);
+    } else {
+      console.warn('Phone number is too long');
+    }
+  };
+  
   return (
     <Modal
       classNames={{
@@ -154,6 +191,9 @@ const UserInputModal = (props) => {
               id="phone_number"
               name="phone_number"
               placeholder="Phone number"
+              value={phoneNumber}
+              onChange={handleChange}
+              // onBlur={handleBlur}
               required
             />
           </div>
