@@ -55,8 +55,60 @@
     transition: transform 0.3s ease-in-out;
   }
 .main_image_4{
-    width: 30%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 48px;
+    padding: 0 10px;
+    line-height: 40px;
+    border-radius: 54px;
+    background: #FFD700;
+    opacity: 0.75;
+    transition: 500ms all ease-in-out;
     filter: brightness(1.01) drop-shadow(2px 3px 4px black);
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    transition: all 100ms linear;
+    position: relative;
+    box-shadow: inset 0 4px 6px -1px rgb(0 0 0 / 0.1), 
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+
+.main_image_4:active {
+    box-shadow: inset 0 0 0 4px #043b3f6b;
+}
+
+.main_image_4::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #FFD700;
+    border-radius: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease-in-out;
+    opacity: 0;
+    animation: flash 100ms ease-in-out;
+    transform: scaleX(1.75) scaleY(1.75);
+}
+
+.main_image_4:hover::before {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+@keyframes flash {
+    0%{
+        opacity: 1;
+        transform: translate(45px);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0);
+    }
 }
 
 .core_strength_header{
@@ -298,6 +350,12 @@
     .form_input_box{
         padding: 0 16px;
     }
+    .main_image_4{
+        height: 48px;
+        padding: 0 10px;
+        line-height: 40px;
+        border-radius: 54px;
+    }
 }
 @media (max-width: 768px) {
     .inquire_container{
@@ -334,7 +392,10 @@
         bottom: 15px;
     }
     .main_image_4{
-        width: 200px;
+        height: 28px;
+        line-height: 24px;
+        font-size: 500;
+        font-size: 1rem;
     }
 }
 
@@ -342,25 +403,23 @@
     .main_image_4_box{
         bottom: 12px;
     }
-    .main_image_4{
-        width: 180px;
-    }
+
 }
 @media (max-width: 380px) {
     .main_image_4_box{
         bottom: 10px;
     }
     .main_image_4{
-        width: 170px;
+        font-size: 0.8rem;
+        height: 24px;
+        line-height: 24px;
     }
 }
 @media (max-width: 340px) {
     .main_image_4_box{
         bottom: 8px;
     }
-    .main_image_4{
-        width: 170px;
-    }
+
 }
 
 /* infor box */
