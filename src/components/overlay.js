@@ -42,7 +42,7 @@ const Overlay = (props) => {
         <img className="click_me_btn_img" src="button.png" alt="click me" />
       </div> */}
       <div onClick={() => setIsInputModalOpen(true)} className='click_me_btn'>
-          <button className='click_me_btn_img'>Avail pre-launch benifits now</button>
+          <button className='click_me_btn_img'>Avail pre-launch benefits now</button>
        </div>
       <button
         className="close-btn"
