@@ -38,9 +38,12 @@ const Overlay = (props) => {
   return (
     <div className="overlay">
       <img src={imageSrc} alt="Welcome" />
-      <div onClick={hadleBtnCkick} className="click_me_btn">
+      {/* <div onClick={hadleBtnCkick} className="click_me_btn">
         <img className="click_me_btn_img" src="button.png" alt="click me" />
-      </div>
+      </div> */}
+      <div onClick={() => setIsInputModalOpen(true)} className='click_me_btn'>
+          <button className='click_me_btn_img'>Avail pre-launch benifits now</button>
+       </div>
       <button
         className="close-btn"
         onClick={handleClose}
