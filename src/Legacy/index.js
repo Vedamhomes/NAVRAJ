@@ -20,11 +20,14 @@ const Legacy = () => {
           fetchpriority="high"
           decoding="async"
           src="main_img.jpg"
-          alt=""
+          alt="Legacy"
           data-lazyload="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
           data-no-retina=""
           data-src-rs-ref="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
         />
+        <div className="image_container_txt_box centered animate__animated  animate__fadeInRight" style={{ animationDelay: '3s' }}>
+         <p>Extraordinare Experiences </p> <p>Extraordinare Life</p>
+        </div>
       </div>
 
       <div className="legacy_container">
@@ -39,7 +42,7 @@ const Legacy = () => {
               fetchpriority="high"
               decoding="async"
               src="https://navrajindia.com/wp-content/uploads/2024/05/about-navraj-infratech-1.jpg"
-              alt=""
+              alt="Navraj Infratech"
             />
           </div>
           <div className="info_container_right">
