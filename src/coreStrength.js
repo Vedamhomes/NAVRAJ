@@ -15,7 +15,7 @@ const location = useLocation();
       <div className='image_container'>
         <img className='main_image_3' fetchpriority="high" decoding="async" src="The_Pinnacle_of_opulence.jpg" alt="Natural Light Room" data-no-retina=""/>
 	  <div className="main_image_cont_box animate__animated  animate__fadeInRight" style={{ animationDelay: '3s' }}>
-         <p>The Pinnacle of opulence </p> <p>3&4 BHK Ultra Luxury Apartments</p><p>Price starts ₹ 3.36* Cr Onwards</p>
+         <p className='first-line'>The Pinnacle of opulence </p> <p className='second-line'>3&4 BHK Ultra Luxury Apartments</p><p className='third-line'>Price starts ₹ 3.36* Cr Onwards</p>
         </div>
         <div onClick={() => setIsInputModalOpen(true)} className='main_image_4_box'>
           <button className='main_image_4'>Click to know structural online</button>
