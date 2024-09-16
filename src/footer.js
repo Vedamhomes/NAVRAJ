@@ -30,7 +30,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faFacebook} />
             </span>
           </a>
-          <a class="icon twitter" href="https://www.linkedin.com/company/navrajgroup/" target="_blank">
+          <a class="icon linkedin" href="https://www.linkedin.com/company/navrajgroup/" target="_blank">
             {/* <div class="tooltip">Twitter</div> */}
             <span>
             <FontAwesomeIcon icon={faLinkedin} />
