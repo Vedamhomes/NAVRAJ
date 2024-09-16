@@ -5,9 +5,9 @@ import React from 'react';
 import './ImageGallery.css'; // Add CSS for styling
 
 const images = [
-  { src: '/assets/image1.jpg', alt: 'Image 1' },
-  { src: '/assets/image2.jpg', alt: 'Image 2' },
-  { src: '/assets/image3.jpg', alt: 'Image 3' },
+  { src: 'antalyas_gallery_003.jpg', alt: 'Image 1' },
+  { src: 'antalyas_gallery_004.jpg', alt: 'Image 2' },
+  { src: 'antalyas_gallery_005.jpg', alt: 'Image 3' },
   // Add more images as needed
 ];
 
