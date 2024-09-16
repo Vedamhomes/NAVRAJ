@@ -48,12 +48,16 @@ const location = useLocation();
             </div>
             <div className='map_section2_cont'>
                 <h3> Navraj - Faridabad Office</h3>
-                
+                <p class="desc">
+                    <span>Radisson Blu, Mathura Road,</span>
+                    <span>Faridabad, Haryana 121001 </span></p>
             </div>
 
             <div className='map_section2_cont'>
                 <h3>Navraj - The Analia</h3>
-                
+                <p class="desc">
+                    <span>Sector 37 D, Gurugram, Haryana 122001</span>
+                    <span><b>Phone: 8800015688</b></span></p>
             </div>
         </div>
     </div>
