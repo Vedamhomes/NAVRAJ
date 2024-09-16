@@ -36,8 +36,9 @@ const Overlay = (props) => {
   if (!showOverlay) return null;
 
   return (
-    <div className="overlay">
     <div className="overlay_popup">
+    <div className="overlay">
+    
       <img src={imageSrc} alt="Welcome" />
       {/* <div onClick={hadleBtnCkick} className="click_me_btn">
         <img className="click_me_btn_img" src="button.png" alt="click me" />
