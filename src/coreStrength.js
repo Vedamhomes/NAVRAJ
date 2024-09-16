@@ -29,40 +29,7 @@ const location = useLocation();
         <img className='main_image_2 main_image_3' fetchpriority="high" decoding="async" src="our_core_strength01.png" alt="" data-no-retina=""/>
       </div>)}
 	      {/*custom code for map*/}
-	    <div className='image_container'>
-    <div className='main_map_sect first_section'>
-        <div className='map_section1'>
-            <iframe width="600" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27674.261708734954!2d76.97294566934833!3d28.40546213372811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d44da25ec83%3A0x1e488481e254e73a!2sTower%204%2C%20DLF%20CORPORATE%20GREENS%2C%20Sector%2074A%2C%20Gurugram%2C%20Haryana%20122018!5e0!3m2!1sen!2sin!4v1726479336782!5m2!1sen!2sin"
-            title="Navraj Infratech" frameBorder="0">
-            </iframe>
-        </div>
-        <div className='map_section2'>
-            <div className='map_section2_cont'>
-                <h3> Navraj Head Office</h3>
-                <p className='desc'>614-616, 6th Floor, Tower 4,
-                    <pan>DLF Corporate Greens, Sector-74A,
-                    <br>Gurugram (HR) - 122004
-                    <br><b>Phone: 0124-5180996<br></b>
-                    <b>Sales:</b> sales@navrajindia.com
-                    <br>
-                    <b>Support:</b> customercare@navrajindia.com</p>
-            </div>
-            <div className='map_section2_cont'>
-                <h3> Navraj - Faridabad Office</h3>
-                <p className='desc'>
-                    Radisson Blu, Mathura Road,
-                    <br>Faridabad, Haryana 121001 </p>
-            </div>
-
-            <div className='map_section2_cont'>
-                <h3>Navraj - The Analia</h3>
-                <p className='desc'>
-                    Sector 37 D, Gurugram, Haryana 122001
-                    <br><b>Phone: 8800015688</b></p>
-            </div>
-        </div>
-    </div>
-</div>
+	   
 		    { /* end custom code for map */}
 		    
 	<div className="info_box">
