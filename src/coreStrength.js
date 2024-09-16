@@ -28,7 +28,9 @@ const location = useLocation();
       {location.pathname === '/projects' && (<div className='image_container'>
         <img className='main_image_2 main_image_3' fetchpriority="high" decoding="async" src="our_core_strength01.png" alt="" data-no-retina=""/>
       </div>)}
-        
+         <div className='image_container'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27674.261708734954!2d76.97294566934833!3d28.40546213372811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d44da25ec83%3A0x1e488481e254e73a!2sTower%204%2C%20DLF%20CORPORATE%20GREENS%2C%20Sector%2074A%2C%20Gurugram%2C%20Haryana%20122018!5e0!3m2!1sen!2sin!4v1726479336782!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <div className="info_box">
         <div className="info_box_text">
         Experience the Epitome of Elegance. Schedule a Private Tour.        </div>
