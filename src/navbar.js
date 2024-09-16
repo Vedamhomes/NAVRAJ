@@ -20,7 +20,7 @@ const Navbar = (props) => {
         <ul className="navbar_list">
           {/* <li className="navbar_list_home">Home</li> */}
           {/* <li className="navbar_list_contact">Gallery</li> */}
-           <li className="navbar_list_contact"> <a href="projects">Projects</a></li>
+           <li className="navbar_list_project"> <a href="projects">Projects</a></li>
           <li className="glitch_wrapper">
             <button className="glitch navbar_list_enquire_btn" onClick={() => setIsInputModalOpen(true)}>
               Enquire now
