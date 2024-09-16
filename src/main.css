@@ -127,6 +127,15 @@ margin-left:30px;
 .react-responsive-modal-closeButton svg{
 fill: #ffffff;
 }
+p.desc {
+    margin: 10px 0 20px;
+}
+p.desc span {
+    display: block;
+}
+.main_map_sect{
+        padding: 100px 100px 0;
+    }
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
