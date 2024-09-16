@@ -39,6 +39,7 @@ const MainContent = () => {
           </p>
 
           <div className="about_icno_box">
+              <a href="leadership">
             <span>
               <svg
                 aria-hidden="true"
@@ -50,6 +51,7 @@ const MainContent = () => {
               </svg>
             </span>
             <span>ABOUT NAVRAJ</span>
+                  </a>
           </div>
         </div>
       </section>
