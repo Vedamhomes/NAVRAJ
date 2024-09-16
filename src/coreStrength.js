@@ -39,7 +39,7 @@ const location = useLocation();
         <div className='map_section2'>
             <div className='map_section2_cont'>
                 <h3> Navraj Head Office</h3>
-                <p className="desc">614-616, 6th Floor, Tower 4,
+                <p className='desc'>614-616, 6th Floor, Tower 4,
                     <pan>DLF Corporate Greens, Sector-74A,
                     <br>Gurugram (HR) - 122004
                     <br><b>Phone: 0124-5180996<br></b>
@@ -49,14 +49,14 @@ const location = useLocation();
             </div>
             <div className='map_section2_cont'>
                 <h3> Navraj - Faridabad Office</h3>
-                <p className="desc">
+                <p className='desc'>
                     Radisson Blu, Mathura Road,
                     <br>Faridabad, Haryana 121001 </p>
             </div>
 
             <div className='map_section2_cont'>
                 <h3>Navraj - The Analia</h3>
-                <p className="desc">
+                <p className='desc'>
                     Sector 37 D, Gurugram, Haryana 122001
                     <br><b>Phone: 8800015688</b></p>
             </div>
