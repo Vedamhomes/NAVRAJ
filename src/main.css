@@ -121,7 +121,13 @@ margin-left:30px;
     margin-left: 8px;
     color: #fff;
 }
-  
+  .form_submit_container{
+    align-items: center;
+  }
+.react-responsive-modal-closeButton svg{
+fill: #ffffff;
+}
+
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .first_section {
