@@ -32,8 +32,8 @@ const location = useLocation();
         <iframe width="560"
                         height="315"
                         src=
-"https://www.youtube.com/embed/tmg6d3T_T6Q"
-                        title="GeeksforGeeks" >
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27674.261708734954!2d76.97294566934833!3d28.40546213372811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d44da25ec83%3A0x1e488481e254e73a!2sTower%204%2C%20DLF%20CORPORATE%20GREENS%2C%20Sector%2074A%2C%20Gurugram%2C%20Haryana%20122018!5e0!3m2!1sen!2sin!4v1726479336782!5m2!1sen!2sin"
+                        title="" >
                 </iframe>
         </div>
         <div className="info_box">
