@@ -20,7 +20,7 @@ const Projects = () => {
           className="main_image"
           fetchpriority="high"
           decoding="async"
-          src="navraj_project_page.png"
+          src="navraj_project_page.jpg"
           alt=""
        />
       </div>
