@@ -30,19 +30,19 @@ const Footer = () => {
               <FontAwesomeIcon icon={faFacebook} />
             </span>
           </a>
-          <a class="icon twitter">
+          <a class="icon twitter" href="https://www.linkedin.com/company/navrajgroup/" target="_blank">
             {/* <div class="tooltip">Twitter</div> */}
             <span>
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faLinkedin} />
             </span>
           </a>
-          <a class="icon instagram">
+          <a class="icon instagram" href="https://www.instagram.com/navrajgroup/" target="_blank">
             {/* <div class="tooltip">Instagram</div> */}
             <span>
             <FontAwesomeIcon icon={faInstagram} />
             </span>
           </a>
-          <a class="icon youtube">
+          <a class="icon youtube" href="https://www.youtube.com/channel/UC7uQfjliFrKC3xOd5hMPUHw" target="_blank">
             {/* <div class="tooltip">Youtube</div> */}
             <span>
             <FontAwesomeIcon icon={faYoutube} />
