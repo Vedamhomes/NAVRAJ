@@ -30,10 +30,10 @@ const Footer = () => {
               <FontAwesomeIcon icon={faFacebook} />
             </span>
           </a>
-          <a class="icon linkedin" href="https://www.linkedin.com/company/navrajgroup/" target="_blank">
+          <a class="icon faTwitter">
             {/* <div class="tooltip">Twitter</div> */}
             <span>
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faTwitter} />
             </span>
           </a>
           <a class="icon instagram" href="https://www.instagram.com/navrajgroup/" target="_blank">
