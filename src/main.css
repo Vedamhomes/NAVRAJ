@@ -96,6 +96,9 @@
   margin-right: 20px;
 }
 /* custom css*/
+.first_section_right {
+    align-items: flex-start;
+}
 .modal_container_box {
     -webkit-backdrop-filter: blur(10px) !important;
     backdrop-filter: blur(10px) !important;
