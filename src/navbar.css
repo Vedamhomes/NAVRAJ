@@ -94,7 +94,7 @@
     background-color: #D1C292;
   }
 
-a {
+.navbar_list_project a {
     color: #fff;
     text-decoration: none;
 }
