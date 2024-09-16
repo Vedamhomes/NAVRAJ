@@ -307,6 +307,8 @@
     margin-bottom: 15px;
     padding-bottom: 10px;
     margin-right: 30px;
+    margin-left: 30px;
+    align-item: center;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -338,7 +340,7 @@
 }
 
 .submit_btn:hover{
-    background-color: #D5C9A4;
+    background-color: #a78311;
     color: #FFFFFF;
     border-style: none;
 }
