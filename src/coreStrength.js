@@ -39,12 +39,12 @@ const location = useLocation();
         <div className='map_section2'>
             <div className='map_section2_cont'>
                 <h3> Navraj Head Office</h3>
-                 <p class='desc'>614-616, 6th Floor, Tower 4,
-                    <br>DLF Corporate Greens, Sector-74A,
-                    <br>Gurugram (HR) - 122004
-                    <br><b>Phone: 0124-5180996</b>
-                    <br><b>Sales:</b> sales@navrajindia.com
-                    <br><b>Support:</b> customercare@navrajindia.com</p>
+                 <p class='desc'><span>614-616, 6th Floor, Tower 4,</span>
+                    <span>DLF Corporate Greens, Sector-74A,</span>
+                    <span>Gurugram (HR) - 122004</span>
+                    <span><b>Phone: 0124-5180996</b></span>
+                    <span><b>Sales:</b> sales@navrajindia.com</span>
+                    <span><b>Support:</b> customercare@navrajindia.com</span></p>
             </div>
             <div className='map_section2_cont'>
                 <h3> Navraj - Faridabad Office</h3>
