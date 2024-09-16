@@ -173,6 +173,9 @@ align-items: center;
     font-size: 75px;
     font-weight: 700;
 }
+.main_image_cont_box .first-line{
+color: #d9bb75;
+}
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .first_section {
