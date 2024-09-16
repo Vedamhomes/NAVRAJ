@@ -66,45 +66,7 @@ const location = useLocation();
     </div>
 </div>
 		    <div id="mainGallery"></div>
-       <script type="text/babel">
-        class Gallery extends React.Component {
-            componentDidMount() {
-                // Initialize Masonry after the component mounts
-                const elem = document.querySelector('.gallery');
-                const msnry = new Masonry(elem, {
-                    // options
-                    itemSelector: '.gallery-item',
-                    columnWidth: '.gallery-item',
-                    percentPosition: true
-                });
-            }
-
-            render() {
-                return (
-                    <div className="gallery">
-                        <div className="gallery-item">
-                            <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 1">
-                                <img src="https://via.placeholder.com/200x150" alt="Placeholder 1" />
-                            </a>
-                        </div>
-                        <div className="gallery-item">
-                            <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 2">
-                                <img src="https://via.placeholder.com/200x150" alt="Placeholder 2" />
-                            </a>
-                        </div>
-                        <div className="gallery-item">
-                            <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 3">
-                                <img src="https://via.placeholder.com/200x150" alt="Placeholder 3" />
-                            </a>
-                        </div>
-                        {/* Add more images as needed */}
-                    </div>
-                );
-            }
-        }
-
-        ReactDOM.render(<Gallery />, document.getElementById('mainGallery'));
-    </script>
+      
     
 	 { /* end custom code for map */}
 		    
