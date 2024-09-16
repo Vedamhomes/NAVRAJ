@@ -64,7 +64,8 @@ const location = useLocation();
             </div>
         </div>
     </div>
-</div>   
+</div>
+		    <div id="mainGallery"></div>
 	 { /* end custom code for map */}
 		    
 	<div className="info_box">
