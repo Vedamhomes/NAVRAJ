@@ -29,7 +29,7 @@ const location = useLocation();
         <img className='main_image_2 main_image_3' fetchpriority="high" decoding="async" src="our_core_strength01.png" alt="" data-no-retina=""/>
       </div>)}
          <div className='image_container'>
-        <div className='main_map_sect'>
+        <div className='main_map_sect first_section'>
         <div className='map_section1'>
           <iframe width="600"
                         height="450"
@@ -40,14 +40,11 @@ const location = useLocation();
           </div>
           <div className='map_section2'>
                        <h3> Navraj Head Office</h3>
-                        <p>
-                          614-616, 6th Floor, Tower 4,
-                          DLF Corporate Greens, Sector-74A,
-                          Gurugram (HR) - 122004
-                          <b>Phone:</b> 0124-5180996
-                          <b>Sales:</b> sales@navrajindia.com
-                          <b>Support:</b> customercare@navrajindia.com
-                        </p>
+                        <p class="desc">
+						614-616, 6th Floor, Tower 4, <br>DLF Corporate Greens, Sector-74A,<br>Gurugram (HR) - 122004<br><b>Phone: 0124-5180996<br></b>
+								<b>Sales:</b> sales@navrajindia.com<br>
+							<b>Support:</b> customercare@navrajindia.com					
+                          </p>
 
           </div>
            </div>
