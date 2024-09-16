@@ -93,7 +93,11 @@
     color: #000000;
     background-color: #D1C292;
   }
-    
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
   /* Responsive Design */
   @media (max-width: 1200px) {
     .navbar_container {
