@@ -37,6 +37,7 @@ const Overlay = (props) => {
 
   return (
     <div className="overlay">
+    <div className="overlay_popup">
       <img src={imageSrc} alt="Welcome" />
       {/* <div onClick={hadleBtnCkick} className="click_me_btn">
         <img className="click_me_btn_img" src="button.png" alt="click me" />
@@ -49,6 +50,7 @@ const Overlay = (props) => {
         onClick={handleClose}
         aria-label="Close Overlay"
       ></button>
+          </div>
     </div>
   );
 };
