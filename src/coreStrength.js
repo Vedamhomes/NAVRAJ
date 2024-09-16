@@ -39,15 +39,15 @@ const location = useLocation();
                 </iframe>
           </div>
           <div className='map_section2'>
-                          <h3Navraj Head Office<h3>
-                          <p>
+                       <h3Navraj Head Office<h3>
+                        <p>
                           614-616, 6th Floor, Tower 4,
                           DLF Corporate Greens, Sector-74A,
                           Gurugram (HR) - 122004
                           <b>Phone:</b> 0124-5180996
                           <b>Sales:</b> sales@navrajindia.com
                           <b>Support:</b> customercare@navrajindia.com
-                          <p>
+                        </p>
 
           </div>
            </div>
