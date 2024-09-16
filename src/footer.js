@@ -24,7 +24,7 @@ const Footer = () => {
           NAVRAJ INFRATECH: A decade of shaping Gurugram's skyline with expertise and innovation. Pioneering innovative living solutions, elevating living standards with visionary design and impeccable craftsmanship.
           </div>
         <div class="wrapper">
-          <a  class="icon facebook">
+          <a class="icon facebook" href="https://www.facebook.com/navrajgroup/" target="_blank">
             {/* <div class="tooltip">Facebook</div> */}
             <span>
               <FontAwesomeIcon icon={faFacebook} />
