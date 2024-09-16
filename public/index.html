@@ -98,7 +98,10 @@
             }
         }
 
-        ReactDOM.render(<Gallery />, document.getElementById('mainGallery'));
+     //   ReactDOM.createRoot(<Gallery />, document.getElementById('mainGallery'));
+      // Create a root and render the Gallery component into the root
+        const root = ReactDOM.createRoot(document.getElementById('mainGallery'));
+        root.render(<Gallery />);
     </script>
     
    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
