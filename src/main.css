@@ -176,6 +176,9 @@ align-items: center;
 .main_image_cont_box .first-line{
 color: #d9bb75;
 }
+.main_image_4_box{
+bottom: 20%;
+}
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .first_section {
