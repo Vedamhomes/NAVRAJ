@@ -147,6 +147,9 @@ p.desc span {
 .map_section1 {
     box-shadow: 0 30px 30px 0 #00000026;
 }
+.map_section2 h3 {
+    font-size: 27px;
+}
 
 
 /* Responsive Styles */
