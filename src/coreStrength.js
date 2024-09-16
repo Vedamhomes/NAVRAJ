@@ -29,12 +29,28 @@ const location = useLocation();
         <img className='main_image_2 main_image_3' fetchpriority="high" decoding="async" src="our_core_strength01.png" alt="" data-no-retina=""/>
       </div>)}
          <div className='image_container'>
-        <iframe width="600"
+        <div className='main_map_sect'>
+        <div className='map_section1'>
+          <iframe width="600"
                         height="450"
                         src=
 "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27674.261708734954!2d76.97294566934833!3d28.40546213372811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d44da25ec83%3A0x1e488481e254e73a!2sTower%204%2C%20DLF%20CORPORATE%20GREENS%2C%20Sector%2074A%2C%20Gurugram%2C%20Haryana%20122018!5e0!3m2!1sen!2sin!4v1726479336782!5m2!1sen!2sin"
-                        title="Navraj Infratech" >
+                        title="Navraj Infratech" frameBorder="0" >
                 </iframe>
+          </div>
+          <div className='map_section2'>
+                          <h3Navraj Head Office<h3>
+                          <p>
+                          614-616, 6th Floor, Tower 4,
+                          DLF Corporate Greens, Sector-74A,
+                          Gurugram (HR) - 122004
+                          <b>Phone:</b> 0124-5180996
+                          <b>Sales:</b> sales@navrajindia.com
+                          <b>Support:</b> customercare@navrajindia.com
+                          <p>
+
+          </div>
+           </div>
         </div>
         <div className="info_box">
         <div className="info_box_text">
