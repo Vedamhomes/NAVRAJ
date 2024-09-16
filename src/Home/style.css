@@ -53,11 +53,12 @@
   
   .centered {
     position: absolute;
-    top: 62%;
+    top: 30%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 24px;
+    font-size: 50px;
+    line-height:50px;
     letter-spacing: 1px;
     word-spacing: 2px;
     font-weight: 600;
@@ -87,7 +88,7 @@
       position: relative;
     }
     .centered{
-      top: 65%;
+      top: 30%;
     }
     .image_container_txt_box{
       font-size: 1rem;
