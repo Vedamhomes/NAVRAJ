@@ -29,7 +29,12 @@ const location = useLocation();
         <img className='main_image_2 main_image_3' fetchpriority="high" decoding="async" src="our_core_strength01.png" alt="" data-no-retina=""/>
       </div>)}
          <div className='image_container'>
-        
+        <iframe width="560"
+                        height="315"
+                        src=
+"https://www.youtube.com/embed/tmg6d3T_T6Q"
+                        title="GeeksforGeeks" >
+                </iframe>
         </div>
         <div className="info_box">
         <div className="info_box_text">
