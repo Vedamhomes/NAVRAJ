@@ -28,7 +28,7 @@ const location = useLocation();
       {location.pathname === '/projects' && (<div className='image_container'>
         <img className='main_image_2 main_image_3' fetchpriority="high" decoding="async" src="our_core_strength01.png" alt="" data-no-retina=""/>
       </div>)}
-        /*custom code for map*/
+	      {/*custom code for map*/}
 	    <div className='image_container'>
     <div className='main_map_sect first_section'>
         <div className='map_section1'>
@@ -63,7 +63,7 @@ const location = useLocation();
         </div>
     </div>
 </div>
-	      /* end custom code for map */
+		    { /* end custom code for map */}
 		    
 	<div className="info_box">
         <div className="info_box_text">
