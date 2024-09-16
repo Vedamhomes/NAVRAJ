@@ -26,7 +26,7 @@ const Home = () => {
           data-src-rs-ref="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
         />
         <div className="image_container_txt_box centered animate__animated  animate__fadeInRight" style={{ animationDelay: '3s' }}>
-        Elevated Living </br> Exceptional Experiences.
+         <p>Elevated Living </p> <p>Exceptional Experiences.</p>
         </div>
       </div>
       <MainContent />
