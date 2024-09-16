@@ -150,7 +150,9 @@ p.desc span {
 .map_section2 h3 {
     font-size: 27px;
 }
-
+.main_image_4{
+padding: 0 30px;
+}
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
@@ -162,6 +164,9 @@ p.desc span {
   .first_section_right {
     margin-top: 30px;
   }
+  iframe {
+    width: 500px;
+  }
 }
 @media (max-width: 768px) {
   .first_section {
@@ -169,7 +174,11 @@ p.desc span {
     padding: 6px 45px;
     margin: 16px 0;
   }
-
+.main_map_sect {
+        grid-template-columns: 1fr;
+        margin: 16px 0;
+        padding: 6px 45px;
+    }
   .first_section_right_p {
     margin-left: 14px; /* Margin left for mobile */
     margin-right: 20px; /* Margin right for mobile */
