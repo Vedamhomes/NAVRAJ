@@ -164,8 +164,8 @@ padding: 0 30px;
   .first_section_right {
     margin-top: 30px;
   }
-  iframe {
-    width: 500px;
+  .main_map_sect iframe {
+    width: 650px;
   }
 }
 @media (max-width: 768px) {
@@ -179,6 +179,9 @@ padding: 0 30px;
         margin: 16px 0;
         padding: 6px 45px;
     }
+  .main_map_sect iframe {
+    width: 100%;
+  }
   .first_section_right_p {
     margin-left: 14px; /* Margin left for mobile */
     margin-right: 20px; /* Margin right for mobile */
