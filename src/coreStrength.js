@@ -41,25 +41,25 @@ const location = useLocation();
             <div className='map_section2_cont'>
                 <h3> Navraj Head Office</h3>
                 <p class="desc">614-616, 6th Floor, Tower 4,
-                    <br>DLF Corporate Greens, Sector-74A,
-                    <br>Gurugram (HR) - 122004
-                    <br><b>Phone: 0124-5180996<br></b>
+	  </br>DLF Corporate Greens, Sector-74A,
+	      </br>Gurugram (HR) - 122004
+	      </br><b>Phone: 0124-5180996<br></b>
                     <b>Sales:</b> sales@navrajindia.com
-                    <br>
+		    </br>
                     <b>Support:</b> customercare@navrajindia.com</p>
             </div>
             <div className='map_section2_cont'>
                 <h3> Navraj - Faridabad Office</h3>
                 <p class="desc">
                     Radisson Blu, Mathura Road,
-                    <br>Faridabad, Haryana 121001 </p>
+	      </br>Faridabad, Haryana 121001 </p>
             </div>
 
             <div className='map_section2_cont'>
                 <h3>Navraj - The Analia</h3>
                 <p class="desc">
                     Sector 37 D, Gurugram, Haryana 122001
-                    <br><b>Phone: 8800015688</b></p>
+		    </br><b>Phone: 8800015688</b></p>
             </div>
         </div>
     </div>
