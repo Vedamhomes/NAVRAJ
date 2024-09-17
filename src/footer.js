@@ -25,25 +25,25 @@ const Footer = () => {
           </div>
       {/*  <div class="wrapper">
           <a class="icon facebook">
-            {/* <div class="tooltip">Facebook</div> */}
+             <div class="tooltip">Facebook</div>
             <span>
               <FontAwesomeIcon icon={faFacebook} />
             </span>
           </a>
           <a class="icon faTwitter">
-            {/* <div class="tooltip">Twitter</div> */}
+             <div class="tooltip">Twitter</div> 
             <span>
             <FontAwesomeIcon icon={faTwitter} />
             </span>
           </a>
           <a class="icon instagram">
-            {/* <div class="tooltip">Instagram</div> */}
+             <div class="tooltip">Instagram</div> 
             <span>
             <FontAwesomeIcon icon={faInstagram} />
             </span>
           </a>
           <a class="icon youtube">
-            {/* <div class="tooltip">Youtube</div> */}
+             <div class="tooltip">Youtube</div> 
             <span>
             <FontAwesomeIcon icon={faYoutube} />
             </span>
