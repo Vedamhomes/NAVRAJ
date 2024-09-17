@@ -36,7 +36,7 @@
     text-align: -webkit-center;
     padding: 0 30px;
 }
-.section_one_header h1{
+.section_one_header h1, .section_one_header h2{
     color: #897C4A;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -101,7 +101,7 @@
     .section_one_header{
         width: 95%;
     }
-    .section_one_header h1 {
+    .section_one_header h1, .section_one_header h2 {
         font-size: 1.1rem;
         font-weight: 500;
     }
@@ -117,7 +117,7 @@
     .section_one_header{
         width: 100%;
     }
-    .section_one_header h1 {
+    .section_one_header h1, .section_one_header h2 {
         font-size: 1rem;
         font-weight: 500;
     }
