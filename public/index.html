@@ -51,7 +51,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
-      <div id="mainGallery"></div>
+      <div id="mainGallerys"></div>
     </div>
     <!--
       This HTML file is a template.
@@ -100,7 +100,7 @@
         }
 
         // Create a root and render the Gallery component into the root
-        const rootElement = document.getElementById('mainGallery');
+        const rootElement = document.getElementById('mainGallerys');
         if (rootElement) {
             const root = ReactDOM.createRoot(rootElement);
             root.render(<Gallery />);
