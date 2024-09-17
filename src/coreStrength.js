@@ -4,6 +4,8 @@ import emailjs from "@emailjs/browser";
 import { useLocation } from 'react-router-dom';
 import Notify from "simple-notify";
 import "simple-notify/dist/simple-notify.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const CoreStrength = (props) => {
 const { setIsInputModalOpen } = props;
@@ -48,7 +50,7 @@ const location = useLocation();
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i className="fa fa-whatsapp my-float"></i>
+<FontAwesomeIcon icon={faWhatsapp} size="2x" /> {/* Font Awesome WhatsApp icon */}
     </a>
     
 	 { /* end custom code for map */}
