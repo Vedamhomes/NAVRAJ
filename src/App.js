@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState } from "react";
 import "./App.css";
-import Gallery from './Gallery';
+import ImageGallery from './ImageGallery';
 import CoreStrength from "./coreStrength";
 import Footer from "./footer";
 import MainContent from "./mainContent";
