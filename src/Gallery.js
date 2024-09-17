@@ -1,4 +1,3 @@
-
 // src/Gallery.js
 import React, { useEffect, useRef } from 'react';
 
