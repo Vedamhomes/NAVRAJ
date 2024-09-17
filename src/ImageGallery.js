@@ -22,7 +22,7 @@ const ImageGallery = () => {
     <div className="gallery">
       {images.map((image, index) => (
         <div key={index} className="gallery-item">
-           <a href={image.src}>
+           <a href={image.src} data-lightbox="gallery" data-title={image.title}>
             <img src={image.src} alt={image.alt} />
           </a>
         </div>
