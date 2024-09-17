@@ -4,8 +4,6 @@ import emailjs from "@emailjs/browser";
 import { useLocation } from 'react-router-dom';
 import Notify from "simple-notify";
 import "simple-notify/dist/simple-notify.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const CoreStrength = (props) => {
 const { setIsInputModalOpen } = props;
