@@ -53,9 +53,9 @@ const location = useLocation();
              <FontAwesomeIcon icon={faWhatsapp} />
             </span>
     </a>
-
+	<div className="image-gallery" >
         <Gallery />
-	      
+	      </div> 
 	 { /* end custom code for map */}
 		    
 	<div className="info_box">
