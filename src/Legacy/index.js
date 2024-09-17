@@ -81,9 +81,9 @@ const Legacy = () => {
           <div className="info_container_2_box">
             <div className="info_container_2_left">
               <div className="info_container_2_left_p1">
-                <h1 className="info_container_2_left_p1_heading">
+                <h2 className="info_container_2_left_p1_heading">
                   How it all started?
-                </h1>
+                </h2>
                 <p className="info_container_2_left_p1_content">
                   “From Farms to Homes”
                 </p>
@@ -131,7 +131,7 @@ const Legacy = () => {
         <section className="info_container_3">
           <div className="mission_approach_conatiner">
             <div className="mission_approach_left_box">
-              <h1 className="mission_approach_left_box_header">Mission</h1>
+              <h2 className="mission_approach_left_box_header">Mission</h2>
               <p className="mission_approach_left_box_content">
                 We strive to redefine the concept of luxury living and working
                 spaces, offering our customers premium experiences that are
@@ -139,7 +139,7 @@ const Legacy = () => {
               </p>
             </div>
             <div className="mission_approach_right_box">
-              <h1 className="mission_approach_right_box_header">Approach</h1>
+              <h3 className="mission_approach_right_box_header">Approach</h3>
               <p className="mission_approach_right_box_content">
                 We believe that quality, space, and affordability should not be
                 mutually exclusive. Our approach involves innovative strategies
@@ -152,9 +152,9 @@ const Legacy = () => {
 
         <section className="info_container_4">
           <div className="info_container_4_header_box">
-            <h1 className="info_container_4_header_">
+            <h2 className="info_container_4_header_">
               How we make it big – brand values
-            </h1>
+            </h2>
           </div>
           <div>
             <Collapse bordered={false}>
