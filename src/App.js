@@ -24,7 +24,6 @@ function App() {
           <Route path="/legacy" element={<Legacy />} />
             <Route path="/projects" element={<Projects />} />
         </Routes>
-   <Gallery />
       </div>
     </Router>
   );
