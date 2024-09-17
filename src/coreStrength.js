@@ -6,6 +6,7 @@ import Notify from "simple-notify";
 import "simple-notify/dist/simple-notify.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import Gallery from './Gallery';
 
 const CoreStrength = (props) => {
 const { setIsInputModalOpen } = props;
@@ -52,7 +53,9 @@ const location = useLocation();
              <FontAwesomeIcon icon={faWhatsapp} />
             </span>
     </a>
-    
+
+        <Gallery />
+	      
 	 { /* end custom code for map */}
 		    
 	<div className="info_box">
