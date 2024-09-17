@@ -59,6 +59,11 @@
     color: #000000;
     transition: color 0.3s;
 }
+.project_info_sub_content a {
+    display: inherit;
+    align-items: center;
+    text-decoration: none;
+}
 
 @media (max-width: 1200px) {
     .project_info_content_box{
