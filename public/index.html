@@ -25,8 +25,11 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Navraj The Antalyas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.min.css" />
+   <!-- Masonry CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.min.css">
+  <!-- Lightbox CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <!-- Custom CSS -->
   <style>
     .gallery {
       display: flex;
@@ -60,69 +63,16 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-   
-  <!-- Load React and other libraries -->
+ <!-- React and ReactDOM -->
   <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+  <!-- Babel for JSX transpiling -->
   <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+  <!-- Masonry JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-
-  <script type="text/babel">
-    const { useEffect, useRef } = React;
-    const { createRoot } = ReactDOM;
-
-    function Gallery() {
-      const galleryRef = useRef(null);
-
-      useEffect(() => {
-        // Debugging: Check if gallery container is correctly selected
-        const galleryElem = galleryRef.current;
-        console.log('Gallery element:', galleryElem);
-
-        // Initialize Masonry after the component mounts
-        if (galleryElem) {
-          const msnry = new Masonry(galleryElem, {
-            itemSelector: '.gallery-item',
-            columnWidth: '.gallery-item',
-            percentPosition: true
-          });
-          console.log('Masonry initialized:', msnry);
-        } else {
-          console.error('Gallery element not found.');
-        }
-      }, []); // Empty dependency array ensures this runs after the component mounts
-
-      return (
-        <div className="gallery" ref={galleryRef}>
-          <div className="gallery-item">
-            <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 1">
-              <img src="https://via.placeholder.com/200x150" alt="Placeholder 1" />
-            </a>
-          </div>
-          <div className="gallery-item">
-            <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 2">
-              <img src="https://via.placeholder.com/200x150" alt="Placeholder 2" />
-            </a>
-          </div>
-          <div className="gallery-item">
-            <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 3">
-              <img src="https://via.placeholder.com/200x150" alt="Placeholder 3" />
-            </a>
-          </div>
-          {/* Add more images as needed */}
-        </div>
-      );
-    }
-
-    // Render the Gallery component into the gallery-container element inside #root
-    const galleryContainer = document.getElementById('mainGallery');
-    if (galleryContainer) {
-      const root = createRoot(galleryContainer);
-      root.render(<Gallery />);
-    } else {
-      console.error('Gallery container not found.');
-    }
-  </script>
+  <!-- Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+  <!-- Your main JavaScript file -->
+  <script type="text/babel" src="src/index.js"></script>
   </body>
 </html>
