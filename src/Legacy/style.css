@@ -314,6 +314,9 @@
   .info_container_2_right {
     margin-left: 0;
 }
+  .info_container_left_heading{
+    margin-top:30px;
+  }
 }
 
 /* Additional adjustments for very small screens */
