@@ -307,6 +307,19 @@ p.third-line {
     font-size: 22px;
     margin-top: 15px;
 }
+	    .main_map_sect iframe {
+        height: 303px;
+    }
+	    .info_left_section {
+        text-align: center;
+    }
+	.info_box{
+		text-align: center;
+    margin: 60px 20px;
+	}
+	.info_box_number {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 350px) {
