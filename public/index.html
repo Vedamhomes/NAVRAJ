@@ -60,7 +60,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-   <!-- Load React and other libraries -->
+   
+  <!-- Load React and other libraries -->
   <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
   <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
@@ -68,8 +69,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
   
   <script type="text/babel">
-    class Gallery extends React.Component {
-      componentDidMount() {
+    const { useEffect } = React;
+    const { createRoot } = ReactDOM;
+
+    function Gallery() {
+      useEffect(() => {
         // Debugging: Check if gallery container is correctly selected
         const galleryElem = document.querySelector('.gallery');
         console.log('Gallery element:', galleryElem);
@@ -84,36 +88,35 @@
         } else {
           console.error('Gallery element not found.');
         }
-      }
+      }, []);
 
-      render() {
-        return (
-          <div className="gallery">
-            <div className="gallery-item">
-              <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 1">
-                <img src="https://via.placeholder.com/200x150" alt="Placeholder 1" />
-              </a>
-            </div>
-            <div className="gallery-item">
-              <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 2">
-                <img src="https://via.placeholder.com/200x150" alt="Placeholder 2" />
-              </a>
-            </div>
-            <div className="gallery-item">
-              <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 3">
-                <img src="https://via.placeholder.com/200x150" alt="Placeholder 3" />
-              </a>
-            </div>
-            {/* Add more images as needed */}
+      return (
+        <div className="gallery">
+          <div className="gallery-item">
+            <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 1">
+              <img src="https://via.placeholder.com/200x150" alt="Placeholder 1" />
+            </a>
           </div>
-        );
-      }
+          <div className="gallery-item">
+            <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 2">
+              <img src="https://via.placeholder.com/200x150" alt="Placeholder 2" />
+            </a>
+          </div>
+          <div className="gallery-item">
+            <a href="https://via.placeholder.com/800x600" data-lightbox="gallery" data-title="Image 3">
+              <img src="https://via.placeholder.com/200x150" alt="Placeholder 3" />
+            </a>
+          </div>
+          {/* Add more images as needed */}
+        </div>
+      );
     }
 
     // Render the Gallery component into the gallery-container element inside #root
     const galleryContainer = document.getElementById('mainGallerys');
     if (galleryContainer) {
-      ReactDOM.render(<Gallery />, galleryContainer);
+      const root = createRoot(galleryContainer);
+      root.render(<Gallery />);
     } else {
       console.error('Gallery container not found.');
     }
