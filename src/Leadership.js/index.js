@@ -17,7 +17,7 @@ const Leadership = () => {
           fetchpriority="high"
           decoding="async"
           src="https://navrajindia.com/wp-content/uploads/2024/05/culture-banner_option-3.jpg"
-          alt=""
+          alt="Raj Yadav"
           data-lazyload="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
           data-no-retina=""
           data-src-rs-ref="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
@@ -61,7 +61,7 @@ const Leadership = () => {
               fetchpriority="high"
               decoding="async"
               src="	https://navrajindia.com/wp-content/uploads/2024/05/Naveen-2-758x564.jpg"
-              alt=""
+              alt="Naveen Yadav"
             />
           </div>
           <div className="info_container_right">
