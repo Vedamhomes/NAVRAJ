@@ -25,9 +25,9 @@ const location = useLocation();
           {/* <img className='main_image_4' fetchpriority="high" decoding="async" src="button2.png" alt="" data-no-retina=""/> */}
         </div>
       </div>
-      <div className='image_container'>
+     { /*  <div className='image_container'>
         <img className='main_image_2' fetchpriority="high" decoding="async" src="MarketingDocket_page-0004.jpg" alt="Marketing Docket" data-no-retina=""/>
-      </div>
+      </div>*/}
 		{ /* custom code for gallery */}
 		<div className="image-gallery" >
         <ImageGallery />
@@ -48,8 +48,7 @@ const location = useLocation();
         	</div>
           </div>
 	</div>
-
-	 <div id="mainGallery"></div>
+		
        <a href="https://api.whatsapp.com/send?phone=9266811009&text=NAVRAJ INFRATECH"
       className="whatsapp-float"
       target="_blank"
