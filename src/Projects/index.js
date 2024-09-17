@@ -32,8 +32,10 @@ const Projects = () => {
           </p>
 
           <div className='project_info_sub_content'>
+            <a href="#project_amenities">
           <FontAwesomeIcon className='info_down_arrow' icon={faArrowDown} />
           <p>Explore Amenities</p>
+            </a>
           </div>
         </div>
 
