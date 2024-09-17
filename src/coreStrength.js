@@ -39,7 +39,7 @@ const location = useLocation();
             title="Navraj Infratech" frameBorder="0">
             </iframe>
         </div>
-        <div className='map_section2'>
+       {/*  <div className='map_section2'>
             <div className='map_section2_cont'>
                 <h3> Navraj Head Office</h3>
                  <p class='desc'><span>614-616, 6th Floor, Tower 4,</span>
@@ -63,6 +63,7 @@ const location = useLocation();
                     <span><b>Phone: 8800015688</b></span></p>
             </div>
         </div>
+	*/}
     </div>
 </div>
 		    <div id="mainGallery"></div>
@@ -74,7 +75,7 @@ const location = useLocation();
         <div className="info_box_text">
         Experience the Epitome of Elegance. Schedule a Private Tour.        </div>
 
-          <button onClick={() => setIsInputModalOpen(true)} className="info_box_number info_box_number_text">Call 9871534959</button>
+          <button onClick={() => setIsInputModalOpen(true)} className="info_box_number info_box_number_text">Call 92668 11009</button>
       </div>
     </div>
   );
