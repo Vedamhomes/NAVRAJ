@@ -51,7 +51,7 @@ const location = useLocation();
       rel="noopener noreferrer"
     >
 	       <span>
-              <FontAwesomeIcon icon={faWhatsapp} />
+             <img className='my-float' fetchpriority="high" decoding="async" src="whatsapp.png" alt="whatsapp" data-no-retina=""/>
             </span>
     </a>
     
