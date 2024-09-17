@@ -29,6 +29,7 @@
     height: auto;
     max-width: 100%;
     position: relative;
+  justify-content: center;
 }
 .leadership_info_image{
     width: 100%;
