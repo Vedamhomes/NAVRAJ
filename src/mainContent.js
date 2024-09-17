@@ -7,7 +7,7 @@ const MainContent = () => {
     <div className="main_container">
       <section className="first_section">
         <div className="first_section_left">
-          <h2 className="about_box">About Navraj Infratech</h2>
+          <h1 className="about_box">About Navraj Infratech</h1>
 
           <img
             className="first_section_left_img"
@@ -16,7 +16,7 @@ const MainContent = () => {
             // width="600"
             // height="350"
             src="home_first_img.jpeg"
-            alt=""
+            alt="About Navraj Infratech"
           ></img>
         </div>
 
