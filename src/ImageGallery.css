@@ -25,3 +25,14 @@
 .image-gallery {
     margin: 45px 10px;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .gallery-item {
+    flex-basis: calc(33% - 20px);
+}
+}
+@media (max-width: 550px) {
+  .gallery-item {
+    flex-basis: calc(90% - 20px);
+}
+}
