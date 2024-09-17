@@ -228,6 +228,15 @@ p.third-line {
 	.first_section_left{
 		 align-items: center;
 	}
+	
+}
+@media (max-width: 1200px) {
+	.main_map_sect{
+		padding: 60px 48px;
+	}
+	.main_map_sect iframe {
+        width: 450px;
+    }
 }
 @media (max-width: 768px) {
   .first_section {
