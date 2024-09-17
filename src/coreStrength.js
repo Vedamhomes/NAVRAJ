@@ -50,7 +50,9 @@ const location = useLocation();
       target="_blank"
       rel="noopener noreferrer"
     >
-<FontAwesomeIcon icon={faWhatsapp} size="2x" /> {/* Font Awesome WhatsApp icon */}
+	       <span>
+              <FontAwesomeIcon icon={faWhatsapp} />
+            </span>
     </a>
     
 	 { /* end custom code for map */}
