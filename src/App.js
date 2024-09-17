@@ -11,7 +11,6 @@ import Home from "./Home";
 import Projects from './Projects';
 import Legacy from './Legacy';
 import Leadership from './Leadership.js';
-import Gallery from './Gallery';
 
 function App() {
   const [isInputModalOpen, setIsInputModalOpen] = useState(false);
