@@ -48,7 +48,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
-      <div id="mainGallerys"></div>
+      <div id="gallery-container"></div>
     </div>
     <!--
       This HTML file is a template.
@@ -88,7 +88,7 @@
         } else {
           console.error('Gallery element not found.');
         }
-      }, []);
+      }, []); // Empty dependency array ensures this runs after the component mounts
 
       return (
         <div className="gallery">
@@ -113,7 +113,7 @@
     }
 
     // Render the Gallery component into the gallery-container element inside #root
-    const galleryContainer = document.getElementById('mainGallerys');
+    const galleryContainer = document.getElementById('gallery-container');
     if (galleryContainer) {
       const root = createRoot(galleryContainer);
       root.render(<Gallery />);
