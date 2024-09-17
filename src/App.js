@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState } from "react";
 import "./App.css";
+import Gallery from './Gallery';
 import CoreStrength from "./coreStrength";
 import Footer from "./footer";
 import MainContent from "./mainContent";
@@ -11,7 +12,6 @@ import Home from "./Home";
 import Projects from './Projects';
 import Legacy from './Legacy';
 import Leadership from './Leadership.js';
-import Gallery from './Gallery';
 
 function App() {
   const [isInputModalOpen, setIsInputModalOpen] = useState(false);
