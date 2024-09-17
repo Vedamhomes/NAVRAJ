@@ -43,7 +43,7 @@ const location = useLocation();
 	<div className='map_container'>
     		<div className='main_map_sect'>
         	<div className='map_section1'>
-            	<iframe width="800" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27674.261708734954!2d76.97294566934833!3d28.40546213372811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d44da25ec83%3A0x1e488481e254e73a!2sTower%204%2C%20DLF%20CORPORATE%20GREENS%2C%20Sector%2074A%2C%20Gurugram%2C%20Haryana%20122018!5e0!3m2!1sen!2sin!4v1726479336782!5m2!1sen!2sin" title="Navraj Infratech" frameBorder="0">
+            	<iframe width="800" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28296.08671365185!2d76.95898396386575!3d28.442927268023087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17aff4739303%3A0x103ebdbc4748cad8!2sSector%2037D%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1726577930581!5m2!1sen!2sin" title="Navraj Infratech" frameBorder="0">
             	</iframe>
         	</div>
           </div>
