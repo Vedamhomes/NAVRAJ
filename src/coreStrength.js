@@ -6,7 +6,7 @@ import Notify from "simple-notify";
 import "simple-notify/dist/simple-notify.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import Gallery from './Gallery';
+import ImageGallery from './ImageGallery';
 
 const CoreStrength = (props) => {
 const { setIsInputModalOpen } = props;
@@ -54,7 +54,7 @@ const location = useLocation();
             </span>
     </a>
 	<div className="image-gallery" >
-        <Gallery />
+        <ImageGallery />
 	      </div> 
 	 { /* end custom code for map */}
 		    
