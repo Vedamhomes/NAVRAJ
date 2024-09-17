@@ -16,8 +16,8 @@ const ImageGallery = () => {
     <div className="gallery">
       {images.map((image, index) => (
         <div key={index} className="gallery-item">
-           <a href={require(`./images/${image.src}`)} data-lightbox="gallery" data-title={image.title}>
-            <img src={require(`./images/${image.src}`)} alt={image.alt} />
+           <a href={require(`./${image.src}`)} data-lightbox="gallery" data-title={image.title}>
+            <img src={require(`./${image.src}`)} alt={image.alt} />
           </a>
         </div>
       ))}
