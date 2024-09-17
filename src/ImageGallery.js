@@ -8,8 +8,12 @@ const images = [
   { src: 'antalyas_gallery_003.jpg', alt: 'Image 1' },
   { src: 'antalyas_gallery_004.jpg', alt: 'Image 2' },
   { src: 'antalyas_gallery_005.jpg', alt: 'Image 3' },
-   { src: 'antalyas_gallery_006.jpg', alt: 'Image 3' },
-   { src: 'antalyas_gallery_007.jpg', alt: 'Image 3' },
+   { src: 'antalyas_gallery_008.jpg', alt: 'Image 3' },
+   { src: 'antalyas_gallery_009.jpg', alt: 'Image 3' },
+  { src: 'antalyas_gallery_010.jpg', alt: 'Image 3' },
+  { src: 'antalyas_gallery_011.jpg', alt: 'Image 3' },
+  { src: 'antalyas_gallery_012.jpg', alt: 'Image 3' },
+  { src: 'antalyas_gallery_013.jpg', alt: 'Image 3' },
   // Add more images as needed
 ];
 
