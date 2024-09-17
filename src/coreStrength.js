@@ -28,6 +28,11 @@ const location = useLocation();
       <div className='image_container'>
         <img className='main_image_2' fetchpriority="high" decoding="async" src="MarketingDocket_page-0004.jpg" alt="Marketing Docket" data-no-retina=""/>
       </div>
+		{ /* custom code for gallery */}
+		<div className="image-gallery" >
+        <ImageGallery />
+	      </div> 
+	 { /* end custom code for gallery */}
       <div className='image_container'>
         <img className='main_image' fetchpriority="high" decoding="async" src="MarketingDocket_page-0005.jpg" alt="The Pinnacle of Opulence" data-no-retina=""/>
       </div>
@@ -53,9 +58,7 @@ const location = useLocation();
              <FontAwesomeIcon icon={faWhatsapp} />
             </span>
     </a>
-	<div className="image-gallery" >
-        <ImageGallery />
-	      </div> 
+	
 	 { /* end custom code for map */}
 		    
 	<div className="info_box">
