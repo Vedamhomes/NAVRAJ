@@ -22,3 +22,6 @@
 .gallery-item img:hover {
   transform: scale(1.05); /* Slight zoom on hover */
 }
+.image-gallery {
+    margin: 45px 10px;
+}
