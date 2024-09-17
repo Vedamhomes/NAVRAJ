@@ -21,7 +21,7 @@ const Projects = () => {
           fetchpriority="high"
           decoding="async"
           src="navraj_project_page.jpg"
-          alt=""
+          alt="Navraj Project Page"
        />
       </div>
 
