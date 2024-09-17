@@ -41,7 +41,7 @@ const location = useLocation();
           </div>
 	</div>
 
-		<a href="https://api.whatsapp.com/send?phone=92668 11009" className="whatsapp-float" target="_blank"> <i className="fa fa-whatsapp my-float"></i>  </a>
+		<a href="https://api.whatsapp.com/send?phone=92668 11009" className="whatsapp-float"> <i className="fa fa-whatsapp my-float"></i>  </a>
 	 <div id="mainGallery"></div>
       
     
