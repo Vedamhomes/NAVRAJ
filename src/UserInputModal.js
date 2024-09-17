@@ -138,9 +138,9 @@ const UserInputModal = (props) => {
               title="* Property Location"
             >
               <option value="">Select Property Location</option>
-              <option data-ref="faridabad" data-belong="" value="faridabad">
+             { /*  <option data-ref="faridabad" data-belong="" value="faridabad">
                 Faridabad
-              </option>
+              </option> */}
               <option data-ref="gurugram" data-belong="" value="gurugram">
                 Gurugram
               </option>
