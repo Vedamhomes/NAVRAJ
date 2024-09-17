@@ -50,9 +50,9 @@ const location = useLocation();
 		<div className='map_section2'>
           			<div className='map_section2_cont'>
                        <h3> CONNECTED WITH THE WORLD </h3>
-                        <p class="desc">
+                        <p className="desc">
 						Sector 37D is strategically located with excellent connectivity to major employment hubs and key areas in the city.</p>
-								<p><strong>Convenient Access to Key Locations</strong>:</p>
+								<p className="desc"><strong>Convenient Access to Key Locations</strong>:</p>
                   <ul>
                   <li><strong>10 Minutes</strong>: To Dwarka and Ansal Plaza.</li>
                   <li><strong>Near Dwarka Expressway</strong>: Connecting you to various parts of Gurgaon and beyond.</li>
