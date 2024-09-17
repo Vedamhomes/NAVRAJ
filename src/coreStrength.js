@@ -42,7 +42,14 @@ const location = useLocation();
 	</div>
 
 	 <div id="mainGallery"></div>
-       
+       <a href="https://api.whatsapp.com/send?phone=9266811009&text=NAVRAJ INFRATECH"
+      className="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer" >
+	       <span>
+             <img className='my-float' fetchpriority="high" decoding="async" src="whatsapp.png" alt="whatsapp" data-no-retina=""/>
+            </span>
+    </a>
     
 	 { /* end custom code for map */}
 		    
