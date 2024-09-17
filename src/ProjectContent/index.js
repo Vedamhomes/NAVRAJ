@@ -22,7 +22,7 @@ const ProjectContent = () => {
   };
 
   return (
-    <div className="prject_content_continer">
+    <div className="prject_content_continer" id="project_amenities">
       <section className="project_content_section">
         <div className="section_one_header">
           <h1>Project Artistic Impressions</h1>
