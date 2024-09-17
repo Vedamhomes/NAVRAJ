@@ -11,7 +11,6 @@ import Home from "./Home";
 import Projects from './Projects';
 import Legacy from './Legacy';
 import Leadership from './Leadership.js';
-import Gallery from './Gallery';
 
 function App() {
   const [isInputModalOpen, setIsInputModalOpen] = useState(false);
@@ -23,7 +22,6 @@ function App() {
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/legacy" element={<Legacy />} />
             <Route path="/projects" element={<Projects />} />
-   <Route path="/gallery" element={<Gallery />} /> {/* Add Gallery route */}
         </Routes>
       </div>
     </Router>
