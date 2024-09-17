@@ -43,7 +43,7 @@ const location = useLocation();
 
 	 <div id="mainGallery"></div>
        <a
-      href="https://api.whatsapp.com/send?phone=9266811009&text=NAVRAJ%21%20INFRATECH"
+      href="https://api.whatsapp.com/send?phone=9266811009&text=NAVRAJ INFRATECH"
       className="whatsapp-float"
       target="_blank"
       rel="noopener noreferrer"
