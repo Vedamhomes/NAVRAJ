@@ -46,6 +46,24 @@ const location = useLocation();
             	<iframe width="800" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28296.08671365185!2d76.95898396386575!3d28.442927268023087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17aff4739303%3A0x103ebdbc4748cad8!2sSector%2037D%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1726577930581!5m2!1sen!2sin" title="Navraj Infratech" frameBorder="0">
             	</iframe>
         	</div>
+
+		<div className='map_section2'>
+          			<div className='map_section2_cont'>
+                       <h3> CONNECTED WITH THE WORLD </h3>
+                        <p class="desc">
+						Sector 37D is strategically located with excellent connectivity to major employment hubs and key areas in the city.</p>
+								<p><strong>Convenient Access to Key Locations</strong>:</p>
+                  <ul>
+                  <li><strong>10 Minutes</strong>: To Dwarka and Ansal Plaza.</li>
+                  <li><strong>Near Dwarka Expressway</strong>: Connecting you to various parts of Gurgaon and beyond.</li>
+                  <li><strong>Connected to Mahamaya Flyover</strong>: Ensuring smooth transit.</li>
+                  <li><strong>Few Minutes from Delhi</strong>: Easily reachable via Dwarka Expressway.</li>
+                  <li><strong>10 Minutes Drive</strong>: To Hero Honda Chowk.</li>
+                  </ul>
+							</div>
+							
+				</div>
+		
           </div>
 	</div>
 		
