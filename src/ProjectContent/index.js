@@ -136,7 +136,7 @@ const ProjectContent = () => {
       </section>
       <section className="project_content_section">
         <div className="section_one_header section_two_header">
-          <h1>Curated Collection of Exquisite Sports Amenities</h1>
+          <h2>Curated Collection of Exquisite Sports Amenities</h2>
           <p>
             Our exquisite sports amenities offer luxury and functionality, with
             state-of-the-art facilities for fitness, swimming, tennis, golf, and
