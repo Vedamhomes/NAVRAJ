@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="footer_image_box_content">
           NAVRAJ INFRATECH: A decade of shaping Gurugram's skyline with expertise and innovation. Pioneering innovative living solutions, elevating living standards with visionary design and impeccable craftsmanship.
           </div>
-        <div class="wrapper">
+      {/*  <div class="wrapper">
           <a class="icon facebook">
             {/* <div class="tooltip">Facebook</div> */}
             <span>
@@ -48,7 +48,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faYoutube} />
             </span>
           </a>
-        </div>
+        </div>*/}
         </div>
 
 
