@@ -114,6 +114,12 @@
        font-size: 22px;
         line-height: 34px;
     }
+      .info_container_2_right_img{
+          margin-top: 40px;
+      }
+      .info_container_2_right {
+    margin-left: 0;
+}
   }
   @media (max-width: 350px) {
   
