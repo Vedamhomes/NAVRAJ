@@ -36,9 +36,9 @@ const Leadership = () => {
             />
           </div>
           <div className="info_container_right">
-            <h2 className="info_heading">
+            <h1 className="info_heading">
             "Transparency is the cornerstone of building consumer trust," 
-            </h2>
+            </h1>
             <div className="info_sub_heading_box">
               <p>Mr. Raj Yadav</p>
               <p>Founder, Navraj Infratech</p>
