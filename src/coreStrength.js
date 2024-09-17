@@ -48,7 +48,7 @@ const location = useLocation();
       className="whatsapp-float"
       target="_blank"
       rel="noopener noreferrer" >
-	       <span>
+	       <span className="my-float">
              <FontAwesomeIcon icon={faWhatsapp} />
             </span>
     </a>
