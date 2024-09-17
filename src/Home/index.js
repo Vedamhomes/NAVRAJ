@@ -20,7 +20,7 @@ const Home = () => {
           fetchpriority="high"
           decoding="async"
           src="main_img.jpg"
-          alt=""
+          alt="Navraj The Antalyas"
           data-lazyload="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
           data-no-retina=""
           data-src-rs-ref="//v3.navrajindia.com/wp-content/uploads/2024/05/banner_main_1.jpg"
