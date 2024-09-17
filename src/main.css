@@ -320,6 +320,9 @@ p.third-line {
 	.info_box_number {
         margin-left: 0;
     }
+	.section_one_header h1{
+		text-align: center;
+	}
 }
 
 @media (max-width: 350px) {
