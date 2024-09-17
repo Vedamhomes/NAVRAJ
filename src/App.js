@@ -23,6 +23,7 @@ function App() {
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/legacy" element={<Legacy />} />
             <Route path="/projects" element={<Projects />} />
+   <Route path="/gallery" element={<Gallery />} /> {/* Add Gallery route */}
         </Routes>
       </div>
     </Router>
