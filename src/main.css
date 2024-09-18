@@ -268,16 +268,19 @@ p.third-line {
         line-height: 5rem;
     }
 	p.second-line {
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 15px;
 }
 	.main_image_cont_box .first-line {
     color: #d9bb75;
-    font-size: 50px;
+    font-size: 40px;
 }
 	p.third-line {
     font-size: 28px;
     margin-top: 15px;
+}
+	.main_image_3 {
+    height: 450px;
 }
 }
 
