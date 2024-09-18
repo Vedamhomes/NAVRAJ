@@ -121,6 +121,11 @@
     margin-left: 0;
 }
   }
+ @media (max-width: 425px) {
+     .image_container_txt_box {
+        font-size: 19px;
+     }
+ }
   @media (max-width: 350px) {
   
     .image_container_txt_box{
