@@ -49,7 +49,7 @@ const location = useLocation();
 
 		<div className='map_section2'>
           			<div className='map_section2_cont'>
-                       <h3> CONNECTED WITH THE WORLD </h3>
+                       <h3>Prime Location Benefits </h3>
                         <p className="desc">
 						Sector 37D is strategically located with excellent connectivity to major employment hubs and key areas in the city.</p>
 								<p className="desc"><strong>Convenient Access to Key Locations</strong>:</p>
