@@ -8,7 +8,7 @@
 
 .project_content_section{
     height: auto;
-    width: 98%;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,6 +120,8 @@
     .section_one_header h1, .section_one_header h2 {
         font-size: 1rem;
         font-weight: 500;
+        text-align: center;
+        padding-right: 14px;
     }
     .section_one_header p{
         color: #616161;
