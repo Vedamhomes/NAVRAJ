@@ -130,7 +130,7 @@
 
   .click_me_btn {
     position: absolute;
-    bottom: 24%;
+    bottom: 25%;
     width: 100%;
     color: #fff; 
     text-decoration: none;
@@ -339,7 +339,7 @@
       }
 
       .click_me_btn {
-        bottom: 16%;
+        bottom: 25%;
       }
   }
   @media (max-width: 1000px) {
@@ -348,7 +348,7 @@
         top: 28%;
       }
       .click_me_btn{
-        bottom: 22%;
+        bottom: 25%;
     }
   }
 
@@ -358,7 +358,7 @@
         top: 30%;
       }
       .click_me_btn{
-        bottom: 22%;
+        bottom: 25%;
     }
     }
   @media (max-width: 840px) {
@@ -367,7 +367,7 @@
         top: 30%;
       }
       .click_me_btn{
-        bottom: 27%;
+        bottom: 25%;
     }
     }
   @media (max-width: 750px) {
@@ -376,7 +376,7 @@
         top: 35%;
       }
       .click_me_btn{
-        bottom: 30%;
+        bottom: 25%;
     }
     }
   @media (max-width: 650px) {
@@ -389,7 +389,7 @@
         font-weight: 500;
       }
       .click_me_btn{
-        bottom: 33%;
+        bottom: 25%;
     }
     .click_me_btn_img{
       font-size: 1.2rem;
@@ -410,7 +410,7 @@
             font-weight: 500;
           }
           .click_me_btn{
-            bottom: 34%;
+            bottom: 25%;
         }
   }
     @media (max-width: 500px) {
@@ -437,6 +437,11 @@
             width: 90%;
             max-width: 90%;
         }
+        .close-btn{
+            right: 8%;
+    top: 22%;
+        }
+        
   }
     @media (max-width: 450px) {
         
