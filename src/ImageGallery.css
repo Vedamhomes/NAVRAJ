@@ -19,6 +19,14 @@
   transition: transform 0.3s ease; /* Smooth zoom effect */
 }
 
+ .tall-img {
+            height: 300px;
+        }
+
+.wide-img {
+    height: 150px;
+}
+
 .gallery-item img:hover {
   transform: scale(1.05); /* Slight zoom on hover */
 }
