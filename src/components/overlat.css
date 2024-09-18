@@ -448,8 +448,11 @@
             font-weight: 500;
           }
           .click_me_btn {
-            bottom: 25%;
+            bottom: 28%;
           }
+        .overlay img{
+            max-height: 60%;
+        }
   }
     @media (max-width: 400px) {
         
