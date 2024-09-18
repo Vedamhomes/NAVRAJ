@@ -367,8 +367,12 @@
         top: 30%;
       }
       .click_me_btn{
-        bottom: 25%;
+        bottom: 30%;
     }
+      .click_me_btn_img{
+          font-size: 1rem;
+         height: 42px;
+      }
     }
   @media (max-width: 750px) {
 
