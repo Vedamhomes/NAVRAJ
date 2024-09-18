@@ -245,8 +245,7 @@ p.third-line {
 @media (max-width: 768px) {
   .first_section {
     grid-template-columns: 1fr; /* Single column layout on mobile */
-    padding: 6px 45px;
-    margin: 16px 0;
+    padding: 50px 45px;
   }
 .main_map_sect {
         grid-template-columns: 1fr;
