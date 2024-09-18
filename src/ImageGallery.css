@@ -1,15 +1,26 @@
 /* src/ImageGallery.css */
 
-.gallery {
+/* .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Space between images */
+  gap: 10px; 
 }
 
 .gallery-item {
-  flex: 1 1 calc(30% - 20px); /* Three columns with gap */
+  flex: 1 1 calc(30% - 20px); 
   box-sizing: border-box;
-}
+} */
+
+ .gallery {
+            column-count: 3;
+            column-gap: 10px;
+            padding: 10px;
+        }
+
+        .gallery-item {
+            break-inside: avoid;
+            margin-bottom: 10px;
+        }
 
 .gallery-item img {
   width: 100%;
