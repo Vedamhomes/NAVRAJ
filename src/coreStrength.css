@@ -184,6 +184,10 @@
     .main_image{
         margin-top: -14px;
     }
+    .main_image_4:before{
+        width:auto;
+    }
+    
 }
 
 
