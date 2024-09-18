@@ -187,6 +187,10 @@
     .main_image_4:before{
         width:auto;
     }
+    .info_box_text{
+        text-align: center;
+    padding-right: 14px;
+    }
     
 }
 
