@@ -12,7 +12,7 @@ const images = [
    { src: 'antalyas_gallery_009.jpg', alt: 'Image 5' },
   { src: 'antalyas_gallery_010.jpg', alt: 'Image 6' },
   { src: 'antalyas_gallery_011.jpg', alt: 'Image 7' },
-  { src: 'home_first_img.jpeg', alt: 'Image 8' },
+  { src: 'antalyas_gallery_012.jpg', alt: 'Image 8' },
   { src: 'antalyas_gallery_013.jpg', alt: 'Image 9' },
   // Add more images as needed
 ];
