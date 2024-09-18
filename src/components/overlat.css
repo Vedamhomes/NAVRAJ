@@ -423,7 +423,7 @@
             font-weight: 500;
           }
           .click_me_btn {
-            bottom: 18%;
+            bottom: 25%;
           }
           .click_me_btn_img {
             font-size: 1.0rem;
@@ -433,6 +433,9 @@
             line-height: 24px;
           }
 
+        .overlay img {
+        width: 90%;
+    }
   }
     @media (max-width: 450px) {
         
@@ -444,7 +447,7 @@
             font-weight: 500;
           }
           .click_me_btn {
-            bottom: 20%;
+            bottom: 25%;
           }
   }
     @media (max-width: 400px) {
