@@ -161,6 +161,7 @@ p.desc span {
 padding: 0 30px;
 }
 .main_image_cont_box{
+	text-align:center;
 align-items: center;
     border-radius: 5px;
     top: 20%;
