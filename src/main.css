@@ -551,6 +551,9 @@ p.third-line {
     margin-top: 40px;
     margin-bottom: 20px;
   }
+   .inquire_container_form .input_form {
+        margin-left: 0 ;
+    }
 }
 
 @media (max-width: 500px) {
