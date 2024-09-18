@@ -5,7 +5,9 @@
     align-self: auto;
     margin-top: 50px;
 }
-
+.projects .image-gallery {
+    display: none;
+}
 .image_container{
     width: 100%;
     height: auto;
@@ -411,6 +413,9 @@
     .submit_btn{
         margin-left: 0;
         width:100%;
+    }
+    .inquire_container_form .input_form {
+        margin-left: 0;
     }
 
 }
