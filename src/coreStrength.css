@@ -411,11 +411,11 @@
         margin: 0;
     }
     .submit_btn{
-        margin-left: 0;
+        margin-left: 0 !impotant;
         width:100%;
     }
     .inquire_container_form .input_form {
-        margin-left: 0;
+        margin-left: 0 !impotant;
     }
 
 }
