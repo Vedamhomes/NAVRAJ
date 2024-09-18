@@ -53,9 +53,15 @@
   .gallery-item {
     flex-basis: calc(33% - 20px);
 }
+  .gallery {
+    column-count: 2;
+  }
 }
 @media (max-width: 550px) {
   .gallery-item {
     flex-basis: calc(90% - 20px);
 }
+  .gallery {
+    column-count: 1;
+  }
 }
