@@ -64,7 +64,7 @@
   .gallery {
     column-count: 1;
   }
-  .tall-img .wide-img {
+  .tall-img, .wide-img {
     height: auto;
 }
 }
