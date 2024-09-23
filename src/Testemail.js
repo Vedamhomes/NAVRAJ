@@ -33,7 +33,7 @@ const Testemail = () => {
     <label>Last Name</label>
       <input type="text" name="last_name" />
       <label>Email</label>
-      <input type="email" name="email_address" />
+      <input type="email" name="email_address" required/>
     <label>Phone number</label>
       <input type="number" name="phone_number" />
       <label>Property location</label>
