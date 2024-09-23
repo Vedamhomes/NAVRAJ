@@ -7,7 +7,7 @@ import "simple-notify/dist/simple-notify.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import ImageGallery from './ImageGallery';
-import Cemailjs from './Emailjs.js';
+import Emailjs from './Emailjs.js';
 
 const CoreStrength = (props) => {
 const { setIsInputModalOpen } = props;
@@ -33,7 +33,7 @@ const location = useLocation();
 		<div className="image-gallery" >
         <ImageGallery />
 	      </div> 
-<Cemailjs />
+<Emailjs />
 	 { /* end custom code for gallery */}
       <div className='image_container'>
         <img className='main_image' fetchpriority="high" decoding="async" src="MarketingDocket_page-0005.jpg" alt="The Pinnacle of Opulence" data-no-retina=""/>
