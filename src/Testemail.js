@@ -36,6 +36,10 @@ const Testemail = () => {
           console.log(error);
         },
       );
+  }; 
+  
+  const isRepeatingDigits = (number) => {
+    return new Set(number).size <= 3;
   };
 
   const handleChange = (event) => {
