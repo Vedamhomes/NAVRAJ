@@ -7,7 +7,7 @@ import "simple-notify/dist/simple-notify.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import ImageGallery from './ImageGallery';
-import Emailjs from './Emailjs.js';
+import TestEmailjs from './TestEmailjs.js';
 
 const CoreStrength = (props) => {
 const { setIsInputModalOpen } = props;
@@ -31,7 +31,7 @@ const location = useLocation();
       </div>*/}
 		{ /* custom code for gallery */}
 		<div className="image-gallery" >
-        <ImageGallery />
+
 	      </div> 
 <Emailjs />
 	 { /* end custom code for gallery */}
