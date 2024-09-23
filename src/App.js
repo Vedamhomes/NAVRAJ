@@ -12,7 +12,7 @@ import Home from "./Home";
 import Projects from './Projects';
 import Legacy from './Legacy';
 import Leadership from './Leadership.js';
-import Emailjs from './Emailjs.js';
+import Cemailjs from './Emailjs.js';
 
 function App() {
   const [isInputModalOpen, setIsInputModalOpen] = useState(false);
@@ -24,7 +24,7 @@ function App() {
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/legacy" element={<Legacy />} />
             <Route path="/projects" element={<Projects />} />
-  <Route path="/emailjs" element={<Emailjs />} />
+  <Route path="/cemailjs" element={<Cemailjs />} />
         </Routes>
       </div>
     </Router>
