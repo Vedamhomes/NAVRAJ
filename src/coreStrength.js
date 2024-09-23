@@ -76,7 +76,7 @@ const location = useLocation();
              <FontAwesomeIcon icon={faWhatsapp} />
             </span>
     </a>
-<Cemailjs />
+       
 	 { /* end custom code for map */}
 		    
 	<div className="info_box">
