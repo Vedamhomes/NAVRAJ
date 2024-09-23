@@ -13,7 +13,6 @@ import Projects from './Projects';
 import Legacy from './Legacy';
 import Leadership from './Leadership.js';
 
-
 function App() {
   const [isInputModalOpen, setIsInputModalOpen] = useState(false);
   return (
