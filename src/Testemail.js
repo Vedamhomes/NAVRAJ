@@ -38,6 +38,31 @@ const Testemail = () => {
       );
   };
 
+  const handleChange = (event) => {
+    const value = event.target.value;
+    console.log('value', value);
+    
+    let formattedValue = value;
+    
+    if (value.startsWith('+91')) {
+      formattedValue = value.substring(3);
+    }else{
+      formattedValue = ''
+    }
+    
+    formattedValue = formattedValue.replace(/\s+/g, '');
+    
+    if (formattedValue.length <= 10) {
+      if (formattedValue.length >= 8 && isRepeatingDigits(formattedValue)) {
+        return;
+      }
+      setPhoneNumber('+91' + formattedValue);
+    } else {
+      console.warn('Phone number is too long');
+    }
+  };
+
+  
   return (
    <form ref={form} onSubmit={sendEmail}>
       <label>First Name</label>
@@ -47,7 +72,7 @@ const Testemail = () => {
       <label>Email</label>
       <input type="email" name="email_address" required/>
     <label>Phone number</label>
-      <input type="tel" name="phone_number" value={phoneNumber}  required/>
+      <input type="tel" name="phone_number" value={phoneNumber}  onChange={handleChange} required/>
       <label>Property location</label>
       <input  type="text" name="property_location" required/>
       <input type="submit" value="Send" />
