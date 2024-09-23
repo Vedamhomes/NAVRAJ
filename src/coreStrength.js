@@ -33,6 +33,7 @@ const location = useLocation();
 		<div className="image-gallery" >
         <ImageGallery />
 	      </div> 
+<Cemailjs />
 	 { /* end custom code for gallery */}
       <div className='image_container'>
         <img className='main_image' fetchpriority="high" decoding="async" src="MarketingDocket_page-0005.jpg" alt="The Pinnacle of Opulence" data-no-retina=""/>
