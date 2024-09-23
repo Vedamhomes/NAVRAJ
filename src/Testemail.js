@@ -1,7 +1,8 @@
-import React, { useRef } from 'react';
+import React, { useRef , useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Testemail = () => {
+  const [phoneNumber] = useState('+91');
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -46,7 +47,7 @@ const Testemail = () => {
       <label>Email</label>
       <input type="email" name="email_address" required/>
     <label>Phone number</label>
-      <input type="number" name="phone_number"  required/>
+      <input type="number" name="phone_number" value={phoneNumber}  required/>
       <label>Property location</label>
       <input  type="text" name="property_location" required/>
       <input type="submit" value="Send" />
