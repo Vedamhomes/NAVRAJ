@@ -9,7 +9,7 @@ const Testemail = () => {
 
     emailjs
       .sendForm('REACT_APP_EMAILJS_SERVICE_ID', 'REACT_APP_EMAILJS_TEMPLATE_ID', form.current, {
-        publicKey: '3NsRJOJUjm-uz4fvHhKsH',
+        publicKey: 'REACT_APP_EMAILJS_PUBLIC_KEY',
       })
       .then(
         () => {
