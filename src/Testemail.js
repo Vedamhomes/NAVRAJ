@@ -22,6 +22,7 @@ const Testemail = () => {
         },
         (error) => {
           console.log('FAILED...', error.text);
+          console.log(error);
         },
       );
   };
