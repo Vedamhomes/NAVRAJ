@@ -27,7 +27,7 @@ const Testemail = () => {
   };
 
   return (
-   <form ref={form} className="input_form" onSubmit={handleSubmit}>
+   <form ref={form} className="input_form" onSubmit={sendEmail}>
           <div className="form_input_container">
             <label className="form_input_label" htmlFor="property_location">Property Location</label>
             <select
