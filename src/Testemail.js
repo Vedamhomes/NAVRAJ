@@ -47,7 +47,7 @@ const Testemail = () => {
       <label>Email</label>
       <input type="email" name="email_address" required/>
     <label>Phone number</label>
-      <input type="number" name="phone_number" value={phoneNumber}  required/>
+      <input type="tel" name="phone_number" value={phoneNumber}  required/>
       <label>Property location</label>
       <input  type="text" name="property_location" required/>
       <input type="submit" value="Send" />
