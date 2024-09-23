@@ -24,6 +24,7 @@ function App() {
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/legacy" element={<Legacy />} />
             <Route path="/projects" element={<Projects />} />
+  <Route path="/cemailjs" element={<Cemailjs />} />
         </Routes>
       </div>
     </Router>
