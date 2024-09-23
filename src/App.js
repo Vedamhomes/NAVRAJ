@@ -24,7 +24,7 @@ function App() {
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/legacy" element={<Legacy />} />
             <Route path="/projects" element={<Projects />} />
-  <Route path="/testemail" element={<Testemail />} />
+            <Route path="/testemail" element={<Testemail />} />
         </Routes>
       </div>
     </Router>
