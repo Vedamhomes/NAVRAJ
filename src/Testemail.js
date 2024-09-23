@@ -6,7 +6,17 @@ const Testemail = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+   const form_one = e.target;
 
+    const formData = new FormData(form_one);
+
+    const formObject = Object.fromEntries(formData.entries());
+
+    const { property_location, first_name, last_name, email_address, phone_number } = formObject;
+    console.log('phoneNumber.length()', phoneNumber.length)
+    if(phoneNumber.length < 13){
+      return ;
+    }
     emailjs
      .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
