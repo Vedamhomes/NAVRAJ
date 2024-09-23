@@ -12,7 +12,6 @@ import Home from "./Home";
 import Projects from './Projects';
 import Legacy from './Legacy';
 import Leadership from './Leadership.js';
-import Cemailjs from './Emailjs.js';
 
 function App() {
   const [isInputModalOpen, setIsInputModalOpen] = useState(false);
