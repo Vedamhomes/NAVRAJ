@@ -7,6 +7,7 @@ import "simple-notify/dist/simple-notify.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import ImageGallery from './ImageGallery';
+import Cemailjs from './Emailjs.js';
 
 const CoreStrength = (props) => {
 const { setIsInputModalOpen } = props;
@@ -75,7 +76,7 @@ const location = useLocation();
              <FontAwesomeIcon icon={faWhatsapp} />
             </span>
     </a>
-
+<Cemailjs />
 	 { /* end custom code for map */}
 		    
 	<div className="info_box">
