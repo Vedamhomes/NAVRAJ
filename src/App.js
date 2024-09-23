@@ -25,7 +25,6 @@ function App() {
           <Route path="/legacy" element={<Legacy />} />
             <Route path="/projects" element={<Projects />} />
         </Routes>
-   <Route path="/cemailjs" element={<Cemailjs />} />
       </div>
     </Router>
   );
